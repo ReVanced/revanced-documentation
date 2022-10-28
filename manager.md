@@ -41,4 +41,4 @@ Here, you will be greeted with buttons to open, uninstall, or re-patch the appli
 There are two ways of updating the Manager:
 
 1. In the `Dashboard` page, there is an updates section. Tap on the `Update Manager` button when an update is available.
-2. Head to the Manager's [GitHub releases](https://github.com/revanced/revanced-manager/releases/latest) to manually install the latest APK.
+2. Head to the Manager's [GitHub releases](https://github.com/revanced/revanced-manager/releases/latest) to manually download and install the latest APK.
