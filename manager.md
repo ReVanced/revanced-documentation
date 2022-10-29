@@ -11,7 +11,7 @@ This is a guide to use ReVanced Manager for non-root. Refer to the [root guide](
 
 ### Installation
 
-- [Download ReVanced Manager](https://github.com/revanced/revanced-manager/releases/latest)
+- [Download the latest Manager APK here](https://github.com/revanced/revanced-manager/releases/latest)
 - [Where can I download an APK for patching?](https://idk.lol)
 
 ## Using ReVanced Manager
