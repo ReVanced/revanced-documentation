@@ -28,7 +28,7 @@ This is a guide to use ReVanced Manager for non-root. Refer to the [root guide](
 5. Select your desired patches. Note that certain patches are required for non-root installations (e.g. MicroG support patch for YouTube).
 6. Tap `Done`.
 7. The app is now patching. This process can range from 2-10 minutes depending on your device. Refrain from closing the Manager.
-8. When patching is complete, tap on the `Install` button. You may also tap on the three dots menu in the top right to share the APK or share logs.
+8. When patching is complete, tap on the `Install` button. You may also tap on the three dots menu in the top right to share the APK or share logs. Please note that closing the Manager will delete the patched APK.
 
 ### How do I manage patched applications?
 1. Tap on the `Dashboard` tab in the bottom navbar.
