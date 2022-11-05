@@ -1,6 +1,6 @@
 # ReVanced Manager Guide [Non-root]
 
-This is a guide to use ReVanced Manager for non-root. Refer to the [root guide](nop.com) for rooted devices.
+This is a guide to use ReVanced Manager for non-root. Refer to the [root guide](nop.com) for rooted devices. (TBD)
 
 ## Setting up
 
@@ -12,7 +12,8 @@ This is a guide to use ReVanced Manager for non-root. Refer to the [root guide](
 ### Installation
 
 - [Download the latest Manager APK here](https://github.com/revanced/revanced-manager/releases/latest)
-- [Where can I download an APK for patching?](https://idk.lol)
+- Where can I download an APK for patching?
+    - You can get a full apk from mirroring sites such as [APKMirror](https://apkmirror.com). In the example of YouTube, you would want to download the full apk from APKMirror [here](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-41-37-release/youtube-17-41-37-2-android-apk-download/) until ReVanced introduces support for apk bundles (`.apkm`) or split apk (`.apks`) files.
 
 ## Using ReVanced Manager
 
@@ -21,8 +22,8 @@ This is a guide to use ReVanced Manager for non-root. Refer to the [root guide](
 1. Tap the `Patcher` tab in the bottom navbar.
 2. Tap the `Select an application` section.
 3. Here, you have the option to choose between selecting an app from on-device or selecting an APK directly from storage.
-   - For selecting on-device applications, tap on the desired app from the shown menu. For an app to show up in this list, the app must be already installed on the device.
-   - To select from storage, click on the `Storage` button and select the APK normally through the file picker. **`.apks` and `.apkm` files are supported**.
+   - For selecting on-device applications, tap on the desired app from the shown menu. For an app to show up in this list, the app must be already installed on the device. **This feature is incomplete for non-root users as ReVanced has not implemented split APK support. We suggest you pick your APK from storage for now.**
+   - To select from storage, click on the `Storage` button and select the APK normally through the file picker. **`.apks` and `.apkm` files are not supported**.
    - Verify that the selected application is a version supported by ReVanced. [See the full list of supported versions of all apps here.](https://github.com/revanced/revanced-patches#-patches)
 4. After selecting an application, you will be brought back to the main patcher. Tap the `Select patches` section.
 5. Select your desired patches. Note that certain patches are required for non-root installations (e.g. MicroG support patch for YouTube).
