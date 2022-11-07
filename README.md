@@ -1,6 +1,5 @@
 
 <h1 align="center">
-
    <img alt="ReVanced logo" width="64px" src="https://user-images.githubusercontent.com/47723802/200201657-ff3bf4c8-277d-4b27-8913-24cfa1559cb3.png"/>
     <br/>
    ReVanced Manager
@@ -21,22 +20,17 @@ For bug reports, suggestions, or feature requests, open an issue [here](https://
 * [Building from source](https://wip.com)
 
 ## Setting up
-
 ### Requirements
-
 - Android 8+
 - ARM64 device
 
 ### Installation
-
 - [Download the latest Manager APK here](https://github.com/revanced/revanced-manager/releases/latest)
 - Where can I download an APK for patching?
     - You can get a full apk from mirroring sites such as [APKMirror](https://apkmirror.com). In the example of YouTube, you would want to download the full apk from APKMirror [here](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-41-37-release/youtube-17-41-37-2-android-apk-download/) until ReVanced introduces support for apk bundles (`.apkm`) or split apk (`.apks`) files.
 
 ## Using ReVanced Manager
-
 ### How to patch
-
 1. Tap the `Patcher` tab in the bottom navbar.
 2. Tap the `Select an application` section.
 3. Here, you have the option to choose between selecting an app from on-device or selecting an APK directly from storage.
