@@ -62,10 +62,10 @@ There are two ways of updating the Manager:
 
 
 ## Building from source
-1. Setup flutter environment for your [platform](https://docs.flutter.dev/get-started/install)
-2. Clone the repository locally
-3. Add your github token in gradle.properties like [this](https://github.com/revanced/revanced-documentation/wiki/Building-from-source)
-4. Open the project in terminal
-5. Run `flutter pub get` in terminal
-6. Then `flutter packages pub run build_runner build --delete-conflicting-outputs` (Must be done on each git pull)
-7. To build release apk run `flutter build apk`
+1. Set up the Flutter environment for your [platform](https://docs.flutter.dev/get-started/install).
+2. Clone `https://github.com/revanced/revanced-manager.git`.
+3. Add your github token in gradle.properties like [this](https://github.com/revanced/revanced-documentation/wiki/Building-from-source).
+4. Open the project in terminal.
+5. Run `flutter pub get` in terminal.
+6. Then run `flutter packages pub run build_runner build --delete-conflicting-outputs` (Must be done on each git pull).
+7. Build the release apk by running `flutter build apk`.
