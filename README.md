@@ -1,6 +1,8 @@
 
 <h1 align="center">
-   💊 ReVanced Manager
+   💊 
+   <br/>
+   ReVanced Manager
 </h1>
 
 Official documentation of ReVanced Manager.
