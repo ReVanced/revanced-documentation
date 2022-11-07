@@ -13,6 +13,9 @@ Please note that ReVanced Manager is in **Alpha**. There's a big chance that the
 ## Index
 * [Setting up](https://wip.com)
 * [Using ReVanced Manager](https://wip.com)
+   * [How to patch](https://wip.com)
+   * [Managing patched applications](https://wip.com)
+   * [Updating ReVanced Manager](https://wip.com)
 * [Building from source](https://wip.com)
 
 ## Setting up
@@ -30,7 +33,7 @@ Please note that ReVanced Manager is in **Alpha**. There's a big chance that the
 
 ## Using ReVanced Manager
 
-### How do I patch?
+### How to patch
 
 1. Tap the `Patcher` tab in the bottom navbar.
 2. Tap the `Select an application` section.
@@ -44,14 +47,14 @@ Please note that ReVanced Manager is in **Alpha**. There's a big chance that the
 7. The app is now patching. This process can range from 2-10 minutes depending on your device. Refrain from closing the Manager.
 8. When patching is complete, tap on the `Install` button. You may also tap on the three dots menu in the top right to share the APK or share logs. Note that when you close the Manager, the patched APK file will be **deleted from your device**.
 
-### How do I manage patched applications?
+### Managing patched applications
 1. Tap on the `Dashboard` tab in the bottom navbar.
 2. Select the `Installed` chip.
 3. You will see a list of all apps patched by the Manager. Tap on the `Info` for the application you want to manage.
 
 Here, you will be greeted with buttons to open, uninstall, or re-patch the application. You will also see information regarding the app, such as when it was patched, the type of installation, and the selected patches.
 
-### How do I update Manager?
+### Updating ReVanced Manager
 There are two ways of updating the Manager:
 
 1. In the `Dashboard` page, there is an updates section. Tap on the `Update Manager` button when an update is available.
