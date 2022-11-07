@@ -1,6 +1,19 @@
-# ReVanced Manager Guide [Non-root]
 
-This is a guide to use ReVanced Manager for non-root. Refer to the [root guide](nop.com) for rooted devices. (TBD)
+<h1 align="center">
+
+   <img alt="ReVanced logo" width="64px" src="https://user-images.githubusercontent.com/47723802/200201657-ff3bf4c8-277d-4b27-8913-24cfa1559cb3.png"/>
+    <br/>
+   ReVanced Manager
+</h1>
+
+Official documentation of ReVanced Manager.
+
+Please note that ReVanced Manager is in **Alpha**. There's a big chance that the Manager might not work at all for you. For bug reports, suggestions, or feature requests, open an issue [here](https://github.com/revanced/revanced-manager/issues/new/choose). If you wish to discuss the Manager further, a thread has been made under the [#development](https://discord.com/channels/952946952348270622/1002922226443632761) channel in our [Discord server](revanced.app/discord).
+
+## Index
+* [Setting up](https://wip.com)
+* [Using ReVanced Manager](https://wip.com)
+* [Building from source](https://wip.com)
 
 ## Setting up
 
@@ -43,3 +56,13 @@ There are two ways of updating the Manager:
 
 1. In the `Dashboard` page, there is an updates section. Tap on the `Update Manager` button when an update is available.
 2. Head to the Manager's [GitHub releases](https://github.com/revanced/revanced-manager/releases/latest) to manually download and install the latest APK.
+
+
+## Building from source
+1. Setup flutter environment for your [platform](https://docs.flutter.dev/get-started/install)
+2. Clone the repository locally
+3. Add your github token in gradle.properties like [this](https://github.com/revanced/revanced-documentation/wiki/Building-from-source)
+4. Open the project in terminal
+5. Run `flutter pub get` in terminal
+6. Then `flutter packages pub run build_runner build --delete-conflicting-outputs` (Must be done on each git pull)
+7. To build release apk run `flutter build apk`
