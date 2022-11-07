@@ -12,24 +12,26 @@ For bug reports, suggestions, or feature requests, open an issue [here](https://
 >**Note**: ReVanced Manager is in **Alpha**. There's a big chance that the Manager might not work at all for you. 
 
 ## Index
-* [Setting up](https://wip.com)
 * [Using ReVanced Manager](https://wip.com)
+   * [Setting up](https://wip.com)
    * [How to patch](https://wip.com)
    * [Managing patched applications](https://wip.com)
    * [Updating ReVanced Manager](https://wip.com)
+* [Troubleshooting](https://wip.com)
 * [Building from source](https://wip.com)
 
-## Setting up
-### Requirements
+
+## Using ReVanced Manager
+### Setting up
+#### Requirements
 - Android 8+
 - ARM64 device
 
-### Installation
+#### Installation
 - [Download the latest Manager APK here](https://github.com/revanced/revanced-manager/releases/latest)
 - Where can I download an APK for patching?
     - You can get a full apk from mirroring sites such as [APKMirror](https://apkmirror.com). In the example of YouTube, you would want to download the full apk from APKMirror [here](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-41-37-release/youtube-17-41-37-2-android-apk-download/) until ReVanced introduces support for apk bundles (`.apkm`) or split apk (`.apks`) files.
-
-## Using ReVanced Manager
+    
 ### How to patch
 1. Tap the `Patcher` tab in the bottom navbar.
 2. Tap the `Select an application` section.
@@ -55,6 +57,9 @@ There are two ways of updating the Manager:
 
 1. In the `Dashboard` page, there is an updates section. Tap on the `Update Manager` button when an update is available.
 2. Head to the Manager's [GitHub releases](https://github.com/revanced/revanced-manager/releases/latest) to manually download and install the latest APK.
+
+
+## Troubleshooting
 
 
 ## Building from source
