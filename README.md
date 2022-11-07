@@ -1,6 +1,7 @@
 
 <h1 align="center">
-   <img alt="ReVanced logo" width="64px" src="https://user-images.githubusercontent.com/47723802/200201657-ff3bf4c8-277d-4b27-8913-24cfa1559cb3.png"/>
+
+   <img alt="ReVanced logo" width="60px" src="https://user-images.githubusercontent.com/47723802/200204779-224a5f46-4751-450e-b347-137cd57de3b8.png"/>
     <br/>
    ReVanced Manager
 </h1>
