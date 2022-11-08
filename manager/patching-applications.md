@@ -1,8 +1,8 @@
----
+| field | value |
+| --- | --- |
 | tile | Patching applications |
 | id | patching-applications |
 | parent | manager |
----
 
 
 ## Patching applications

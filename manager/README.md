@@ -1,8 +1,8 @@
----
+| field | value |
+| --- | --- |
 | title | ReVanced Manager |
 | id | manager |
 | parent | root |
----
 
 
 <h1 align="center">

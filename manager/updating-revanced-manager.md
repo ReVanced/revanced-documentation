@@ -1,8 +1,8 @@
----
+| field | value |
+| --- | --- |
 | title | Updating ReVanced Manager |
 | id | updating-revanced-manager |
 | parent | manager |
----
 
 
 ## Updating ReVanced Manager

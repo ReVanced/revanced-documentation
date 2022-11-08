@@ -1,8 +1,8 @@
----
+| field | value |
+| --- | --- |
 | title | Setting up |
 | id | setting-up |
 | parent | manager |
----
 
 
 ## Setting up

@@ -1,7 +1,7 @@
----
+| field | value |
+| --- | --- |
 | title | ReVanced Documentation |
 | id | root |
----
 
 
 <h1 align="center">

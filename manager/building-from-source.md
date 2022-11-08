@@ -1,8 +1,8 @@
----
+| field | value |
+| --- | --- |
 | title | Building from source |
 | id | building-from-source
 | parent | manager |
----
 
 
 ## Building from source
