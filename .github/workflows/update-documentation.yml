@@ -2,18 +2,19 @@ name: Update documentation
 
 on:
   repository_dispatch
+    types: [update-documentation]
+
 jobs:
   build:
     name: Update documentation
     runs-on: ubuntu-latest
-
     steps:
       - name: Clone repository
         uses: actions/checkout@v3
       - name: Update submodule
-        run: git submodule update --recursive --remote repositories/${{ github.event.repository.full_name }}
+        run: git submodule update --recursive --remote repositories/${{ github.event.client_payload.repo }}
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'chore: update docs for ${{ github.event.repository.full_name }} to ${{github.event.client_payload.ref}}'
+          message: 'chore: update docs for ${{ github.event.client_payload.repo }} to ${{github.event.client_payload.ref}}'
           default_author: ReVanced
