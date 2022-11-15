@@ -1,6 +1,6 @@
 # 🗄 ReVanced Documentation
 
-Documentation for ReVanced, also contains guides, walktroughs and tutorials.
+Documentation for ReVanced, also contains guides, walkthroughs and tutorials.
 
 ## 📖 Table of contents
 
