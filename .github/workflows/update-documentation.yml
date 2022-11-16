@@ -17,4 +17,4 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: 'chore: update docs for ${{ github.event.client_payload.repo }} to ${{github.event.client_payload.ref}}'
-          default_author: ReVanced
+          fetch: false
