@@ -1,7 +1,7 @@
 name: Update documentation
 
 on:
-  repository_dispatch
+  repository_dispatch:
     types: [update-documentation]
 
 jobs:
