@@ -4,7 +4,7 @@
 - x86/x86_64 host architecture
 - Zulu JDK 17
 - Latest Android SDK if you plan to build the integrations from the source
-- The APK file you want to patch (e.g. YouTube v17.45.36 or YouTube Music v5.23.50). If you want to mount patched applications as root, make sure the same version is installed on your device.
+- The APK file you want to patch (e.g. YouTube v17.49.37 or YouTube Music v5.36.51). If you want to mount patched applications as root, make sure the same version is installed on your device.
 
 You can continue by either [building everything from source](2_building_from_source.md) or [downloading the prebuilt packages](1_downloading.md).
 
