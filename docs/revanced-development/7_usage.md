@@ -6,19 +6,19 @@
    adb shell exit
    ```
 
-2. If you plan to use the root variant, check if you have root access
+   If you plan to use the root variant, check if you have root access
 
-   ```bash
-   adb shell su -c exit
-   ```
+      ```bash
+      adb shell su -c exit
+      ```
 
-3. Copy the ADB device name
+2. Copy the ADB device name
 
    ```bash
    adb devices
    ```
 
-4. Run the CLI
+3. Run the CLI
 
    ```bash
    # Non-Root
@@ -41,7 +41,7 @@
    --mount
    ```
 
-> :warning: A lot of patches require the integrations which you can merge by adding the `-m` flag and passing the `integrations` file as the argument.
-> If you need the list of patches available, pass in `-l`.
+> **Note**: Patches might require additional integrations to be merged. Merge integrations with the option `-m`. 
+> **Note**: You can list all patches available by using the option `-l`.
 
-If you specified an ADB device the application should now open on your device and the CLI will show logs until the app is closed.
+If you specified an ADB device the patched application will be automatically installed.
