@@ -6,3 +6,7 @@
 	path = repositories/revanced-manager
 	url = git@github.com:revanced/revanced-manager.git
 	branch = docs
+[submodule "repositories/revanced-cli"]
+	path = repositories/revanced-cli
+	url = git@github.com:revanced/revanced-cli.git
+	branch = feat/docs

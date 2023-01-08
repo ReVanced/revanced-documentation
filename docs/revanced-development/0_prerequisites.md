@@ -1,20 +1,15 @@
-# Requirements
+# 💼 Prerequisites
 
-- ADB
-- x86/x86_64 host architecture
-- Zulu JDK 17
-- Latest Android SDK if you plan to build the integrations from the source
-- The APK file you want to patch (e.g. YouTube v17.49.37 or YouTube Music v5.36.51). If you want to mount patched applications as root, make sure the same version is installed on your device.
+To develop with ReVanced, you will need to fulfill certain requirements.
 
-You can continue by either [building everything from source](2_building_from_source.md) or [downloading the prebuilt packages](1_downloading.md).
+## 🤝 Requirements
 
-## Overview
+- A Java IDE such as [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- An Android IDE such as [Android Studio](https://developer.android.com/studio)
+- Understanding on how to use the ReVanced CLI
 
-- [Prerequisites](0_prerequisites.md)
-  - [Downloading prebuilt Packages](1_downloading.md)
-  - [Building from source](2_building_from_source.md)
-  - [1. Building the ReVanced Patcher](3_building_revanced_patcher.md)
-    - [2. Building the ReVanced Patches](4_building_revanced_patches.md)
-    - [3. Building the ReVanced Integrations](5_building_revanced_integrations.md)
-    - [4. Building the ReVanced CLI](6_building_revanced_cli.md)
-- [Using the ReVanced CLI](7_usage.md)
+## ⏭️ Whats next
+
+The next section will explain, how to setup a convenient development environment for ReVanced with [IntelliJ IDEA](https://www.jetbrains.com/idea/) and [Android Studio](https://developer.android.com/studio)
+
+Continue: [👨‍💻 Setup a development environment for ReVanced](1_setup_development_environment.md)
