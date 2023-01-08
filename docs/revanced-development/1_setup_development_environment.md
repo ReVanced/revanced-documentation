@@ -106,4 +106,4 @@ Couple things should be considered with the development environment for ReVanced
 
 - Use development branches and always branch off and PR to the `dev` branch
 
-- To use the local `revanced-patches` project in the `revanced-cli` and `revanced-patches` projects, make sure you publish it to the local Maven repository with `./gradlew publish` and use the correct version in the `build.gradle.kts` file in the `revanced-cli` and `revanced-patches` projects, otherwise, it will use the package from GitHub Packages
+- To use the local `revanced-patcher` project in the `revanced-cli` and `revanced-patches` projects, make sure you publish it to the local Maven repository with `./gradlew publish` and use the correct version in the `build.gradle.kts` file in the `revanced-cli` and `revanced-patches` projects, otherwise, it will use the package from GitHub Packages
