@@ -61,12 +61,12 @@ done
         <option name="MAIN_CLASS_NAME" value="app.revanced.cli.main.MainKt" />
         <module name="revanced-cli.main" />
         <option name="PROGRAM_PARAMETERS" value="
-            --options ..\options.toml
-            -o ..\revanced.apk
-            -a ..\binaries\unpatched-input.apk
-            -t ..\revanced-cache
-            -b ..\revanced-patches\build\libs\revanced-patches-<version>.jar
-            -m ..\revanced-integrations\app\build\outputs\apk\release\revanced-integrations-<version>.apk
+            --options ../options.toml
+            -o ../revanced.apk
+            -a ../binaries/unpatched-input.apk
+            -t ../revanced-cache
+            -b ../revanced-patches/build/libs/revanced-patches-<version>.jar
+            -m ../revanced-integrations/app/build/outputs/apk/release/revanced-integrations-<version>.apk
             -d device-name"
         />
         <shortenClasspath name="NONE" />
