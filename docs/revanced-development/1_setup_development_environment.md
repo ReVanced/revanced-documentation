@@ -66,7 +66,7 @@ done
             -a ../binaries/unpatched-input.apk
             -t ../revanced-cache
             -b ../revanced-patches\build\libs\revanced-patches-<version>.jar
-            -m ..\revanced-integrations\app\build\outputs\apk\release\revanced-integrations-<version>.apk
+            -m ../revanced-integrations\app\build\outputs\apk\release\revanced-integrations-<version>.apk
             -d device-name"
         />
         <shortenClasspath name="NONE" />
