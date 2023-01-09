@@ -102,8 +102,8 @@ Couple things should be considered with the development environment for ReVanced
 
 - Pull new commits from remote to keep your branch up to date
 
-- Keep your Run/Debug configuration up to date. Make sure, you use the correct paths in your program argument after you pull new commits. If you forget to do this, you might end up debugging for hours until realizing, you supply the wrong paths to the ReVanced CLI
+- Keep your Run/Debug configuration up to date. Make sure, you use the correct paths in your program argument after you pull new commits. If you forget to do this, you might end up debugging for hours until realising, you supply the wrong paths to the ReVanced CLI
 
-- Use development branches and always branch off and PR to the `dev` branch
+- Use development branches and always branch off and PR to `dev` branches
 
 - To use the local `revanced-patcher` project in the `revanced-cli` and `revanced-patches` projects, make sure you publish it to the local Maven repository with `./gradlew publish` and use the correct version in the `build.gradle.kts` file in the `revanced-cli` and `revanced-patches` projects, otherwise, it will use the package from GitHub Packages
