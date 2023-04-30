@@ -1,12 +1,12 @@
 [submodule "repositories/revanced-patches"]
 	path = repositories/revanced-patches
-	url = git@github.com:revanced/revanced-patches.git
+	url = https://github.com/revanced/revanced-patches
 	branch = feat/docs
 [submodule "repositories/revanced-manager"]
 	path = repositories/revanced-manager
-	url = git@github.com:revanced/revanced-manager.git
+	url = https://github.com/revanced/revanced-manager
 	branch = docs
 [submodule "repositories/revanced-cli"]
 	path = repositories/revanced-cli
-	url = git@github.com:revanced/revanced-cli.git
+	url = https://github.com/revanced/revanced-cli
 	branch = main
