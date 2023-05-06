@@ -21,7 +21,7 @@ done
 
 ### Before building you need to be authenticated to GitHub Packages. This will assume you have a GitHub account
 
-Create a PAT with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=Revanced) and add your token to `~/.gradle/gradle.properties`.
+Create a PAT with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=ReVanced) and add your token to `~/.gradle/gradle.properties`.
 
 Example `gradle.properties` file:
 
