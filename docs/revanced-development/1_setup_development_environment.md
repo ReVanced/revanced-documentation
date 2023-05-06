@@ -67,7 +67,7 @@ done
             -t ../revanced-cache
             -b ../revanced-patches/build/libs/revanced-patches-<version>.jar
             -m ../revanced-integrations/app/build/outputs/apk/release/revanced-integrations-<version>.apk
-            -d device-name"
+            -d device-name
         />
         <shortenClasspath name="NONE" />
         <method v="2">
