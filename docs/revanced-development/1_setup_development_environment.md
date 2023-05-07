@@ -81,12 +81,12 @@ done
 
    > **Note**: The builds of the `revanced-patches` and `revanced-integrations` change. **Do not forget to update them as well in the run configuration program arguments.**
 
-## 5. ⚙️ Setup Android Studio
+## 4. ⚙️ Setup Android Studio
 
 1. Open the `revanced-integrations` project in Android Studio and ensure you are using the latest Android SDK.
 2. Add a new default build configuration and confirm if it succeeds.
 
-## 6. ⚠️ Troubleshoot your development environment
+## 5. ⚠️ Troubleshoot your development environment
 
 To confirm your development environment works as intended, set a breakpoint in any patch in IntelliJ IDEA. Run the configuration and confirm, that your IDE reaches and breaks at the breakpoint. Continue and let the ReVanced CLI exit.
 
