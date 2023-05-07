@@ -51,7 +51,7 @@ done
 
 1. Open the `revanced-cli` project in IntelliJ IDEA and ensure you are using the right JDK from [💼 Prerequisites](0_prerequisites.md)
 2. Import the `revanced-patches` and optionally the `revanced-patcher` project as modules into the `revanced-cli` project
-3. Add a new Run/Debug configuration for the `revanced-cli` project
+3. Add a new Run/Debug configuration for the `revanced-cli` project; Make sure to add `Before launch` tasks to build `revanced-patches` and optionally publish `revanced-patcher`
 
    Example configuration:
 
@@ -88,9 +88,9 @@ done
 
 ## 5. ⚠️ Troubleshoot your development environment
 
-To confirm your development environment works as intended, set a breakpoint in any patch in IntelliJ IDEA. Run the configuration and confirm, that your IDE reaches and breaks at the breakpoint. Continue and let the ReVanced CLI exit.
+To confirm your development environment works as intended, set a breakpoint in any patch from the `revanced-patches` project in IntelliJ IDEA. Run the build configuration for `revanced-cli` and confirm, that your IDE reaches and breaks at the breakpoint. Continue and let ReVanced CLI exit.
 
-- If the ReVanced CLI output is unexpected, confirm if you supplied the correct program arguments by following [💻 ReVanced CLI](./docs/revanced-development).
+- If ReVanced CLI output is unexpected, confirm if you supplied the correct program arguments by following [💻 ReVanced CLI](./docs/revanced-development).
 
 - If the breakpoint was not hit, confirm, that you correctly added the necessary projects as modules to the `revanced-cli` project
 
@@ -102,7 +102,7 @@ Couple things should be considered with the development environment for ReVanced
 
 - Pull new commits from remote to keep your branch up to date
 
-- Keep your Run/Debug configuration up to date. Make sure, you use the correct paths in your program argument after you pull new commits. If you forget to do this, you might end up debugging for hours until realising, you supply the wrong paths to the ReVanced CLI
+- Keep your Run/Debug configuration up to date. Make sure, you use the correct paths in your program argument after you pull new commits. If you forget to do this, you might end up debugging for hours until realising, you supply the wrong paths to ReVanced CLI
 
 - Use development branches and always branch off and PR to `dev` branches
 
