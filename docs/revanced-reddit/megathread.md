@@ -5,7 +5,8 @@ Here, you'll find all the essential links to ReVanced, along with comprehensive 
 ## Links
 
 * [Official links of ReVanced](https://www.reddit.com/r/revancedapp/wiki/links)
-* [ReVanced Reddit Wiki](https://www.reddit.com/r/revancedapp/wiki)
+* [ReVanced Reddit Wiki](https://www.reddit.com/r/revancedapp/wiki/index/)
+* [ReVanced Documentation And Guides](https://www.reddit.com/r/revancedapp/wiki/documentation)
 * [Help - Frequently Asked Questions](https://www.reddit.com/r/revancedapp/wiki/help/questions)
 * [Help - Troubleshooting](https://www.reddit.com/r/revancedapp/wiki/help/troubleshooting)
 
