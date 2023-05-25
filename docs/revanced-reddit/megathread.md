@@ -18,3 +18,8 @@ Here, you'll find all the essential links to ReVanced, along with comprehensive 
 5. Make sure to follow the Reddiquette
 6. Uploading software or executables is prohibited
 7. No advertising
+
+## Before posting
+
+- Before posting, use Reddit's search function to ensure that the post you want to create is not a duplicate of an existing post.
+- When submitting an issue, ensure that you provide comprehensive information, including the time of occurrence, details on how it transpired, steps to reproduce the issue, your specific environment, versions of the tools employed, any accompanying images or recordings, and the results of your own tests.
