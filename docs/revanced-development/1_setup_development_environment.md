@@ -90,7 +90,7 @@ done
 
 To confirm your development environment works as intended, set a breakpoint in any patch from the `revanced-patches` project in IntelliJ IDEA. Run the build configuration for `revanced-cli` and confirm, that your IDE reaches and breaks at the breakpoint. Continue and let ReVanced CLI exit.
 
-- If ReVanced CLI output is unexpected, confirm if you supplied the correct program arguments by following [💻 ReVanced CLI](./docs/revanced-development).
+- If ReVanced CLI output is unexpected, confirm if you supplied the correct program arguments by following [💻 ReVanced CLI](/docs/revanced-development).
 
 - If the breakpoint was not hit, confirm, that you correctly added the necessary projects as modules to the `revanced-cli` project
 
