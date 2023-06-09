@@ -5,7 +5,7 @@
 [submodule "repositories/revanced-manager"]
 	path = repositories/revanced-manager
 	url = https://github.com/revanced/revanced-manager
-	branch = docs
+	branch = main
 [submodule "repositories/revanced-cli"]
 	path = repositories/revanced-cli
 	url = https://github.com/revanced/revanced-cli
