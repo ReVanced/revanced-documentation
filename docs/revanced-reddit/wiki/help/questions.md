@@ -8,9 +8,9 @@ ReVanced is a modular patcher for apps such as YouTube. This project was born ou
 
 ReVanced does not distribute any proprietary file but instead provides open-source patches. Patches can be created for any Android app. The ReVanced Manager will use the patcher as its core to apply patches of your choice on your desired app. On rooted devices, ReVanced can mount the patched app over the original application. On non-rooted devices, ReVanced will install it under a different package name.
 
-## **Where to get ReVanced?**
+## **How to get ReVanced?**
 
-ReVanced is and will always be in development! Currently, you can build and test it yourself and use the ReVanced CLI by following [the documentation](https://github.com/revanced/revanced-documentation) or download the [ReVanced Manager](https://github.com/revanced/revanced-manager).
+ReVanced is and will always be in development! You can follow [Revanced Manager documentation](https://github.com/revanced/revanced-manager/tree/main/docs) to use ReVanced. Alternatively, you can use [ReVanced CLI documentation](https://github.com/revanced/revanced-cli/tree/main/docs).
 
 ## **Does ReVanced support non-rooted devices?**
 
