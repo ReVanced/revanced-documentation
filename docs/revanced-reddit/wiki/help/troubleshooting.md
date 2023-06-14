@@ -61,6 +61,6 @@ This is a side effect caused by a recent workaround for the issue mentioned in [
 
 This is a side effect caused by a recent workaround for the issue mentioned in [Videos do not play or rewind](https://www.reddit.com/r/revancedapp/wiki/help/troubleshooting/#wiki_videos_do_not_play_or_rewind). Please refer to issue [1752](https://github.com/revanced/revanced-patches/issues/1752).
 
-** Video playback stops **
+## **Video playback stops**
 
 This is a known issue, and currently, no fix is known. You may workaround this issue by using another YouTube account or changing regions using a VPN.
