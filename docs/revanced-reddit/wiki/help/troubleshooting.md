@@ -63,4 +63,4 @@ This is a side effect caused by a recent workaround for the issue mentioned in [
 
 ## **Video playback stops**
 
-This is a known issue, and currently, no fix is known. You may workaround this issue by using another YouTube account or changing regions using a VPN.
+This is a known issue and may or may not be fixed by patching YouTube using the latest version of ReVanced Patches. Make sure to include the `client-spoof` patch.
