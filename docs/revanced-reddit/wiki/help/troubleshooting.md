@@ -32,6 +32,10 @@ ReVanced Manager is still work in progress. Before submitting an issue, make sur
 
 Please use username/password to login.
 
+## **Links don't open in a patched app**
+
+Follow [this](https://support.google.com/pixelphone/answer/6271667). The process may vary for your device. You may need to disable or uninstall the unpatched app that occupies the links to set them for the patched app.
+
 ## **org.schabi.newpipe is not installed**
 
 Please install NewPipe here.
