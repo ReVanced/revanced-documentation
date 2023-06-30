@@ -2,15 +2,19 @@
 
 ## **What is ReVanced?**
 
-ReVanced is a modular patcher for apps such as YouTube. This project was born out of Vanced's discontinuation and it is our goal to continue the legacy of what Vanced left.
+ReVanced is a modular patcher for apps such as YouTube. This project was born out of Vanced's discontinuation, and our goal is to continue the legacy of what Vanced left.
 
 ## **How does ReVanced work?**
 
-ReVanced does not distribute any proprietary file but instead provides open-source patches. Patches can be created for any Android app. The ReVanced Manager will use the patcher as its core to apply patches of your choice on your desired app. On rooted devices, ReVanced can mount the patched app over the original application. On non-rooted devices, ReVanced will install it under a different package name.
+ReVanced does not distribute any proprietary file but instead provides open-source patches. Patches can be created for any Android app. The ReVanced Manager will use the patcher as its core to apply patches of your choice on your desired app. ReVanced can mount the patched app on rooted devices over the original one. On non-rooted devices, ReVanced will install it under a different package name.
 
 ## **How to get ReVanced?**
 
 ReVanced is and will always be in development! You can follow [Revanced Manager documentation](https://github.com/revanced/revanced-manager/tree/main/docs) to use ReVanced. Alternatively, you can use [ReVanced CLI documentation](https://github.com/revanced/revanced-cli/tree/main/docs).
+
+## **How to update patched apps?**
+
+To update a patched app, you need to patch the new version of the app.
 
 ## **Does ReVanced support non-rooted devices?**
 
@@ -18,7 +22,7 @@ Yes! ReVanced supports non-root and rooted devices.
 
 ## **Does or will ReVanced have feature X?**
 
-Currently, the focus is shifted toward fine-tuning existing features, but features can be picked up by anyone. Your contributions are also very welcome.
+The focus is shifted toward fine-tuning existing features, but anyone can pick up features. Your contributions are also very welcome.
 
 ## **How can I help?**
 
@@ -26,7 +30,7 @@ Since we are an open-source community and depend on outside help, you can always
 
 ## **Does ReVanced always stay up to date with YouTube?**
 
-Unlike Vanced, our patcher can apply patches to any version of the app. This way, you can use patches on newer or older versions and are independent of us
+Unlike Vanced, our patcher can apply patches to any app version. This way, you can use patches on newer or older versions and are independent of us
 releasing a newer version. (Sometimes patches can break and will need updates. Check [the documentation](https://www.reddit.com/r/revancedapp/wiki/documentation/) on what versions ReVanced is mainly targeting)
 
 ## **Does ReVanced support Music?**
@@ -35,7 +39,7 @@ Yes. Patches have been created for YouTube Music and can be created for any othe
 
 ## **Will ReVanced have NFTs?**
 
-We do not intend to create NFTs. It also was never the reason why Vanced shut down and wouldn't be for us as well.
+We do not intend to create NFTs. It also was never why Vanced shut down and wouldn't be for us, either.
 
 ## **Does Vanced still work?**
 
