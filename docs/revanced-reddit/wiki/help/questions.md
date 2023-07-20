@@ -1,3 +1,5 @@
+# **Frequently Asked Questions**
+
 ## How to get ReVanced?
 
 ReVanced is and will always be in development! You can follow [ReVanced Manager documentation](https://github.com/revanced/revanced-manager/tree/main/docs) to use ReVanced. Alternatively, you can use [ReVanced CLI documentation](https://github.com/revanced/revanced-cli/tree/main/docs).
