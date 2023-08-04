@@ -57,25 +57,24 @@ done
 
    ```xml
     <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="Run ReVanced CLI" type="JetRunConfigurationType">
-        <option name="MAIN_CLASS_NAME" value="app.revanced.cli.main.MainKt" />
-        <module name="revanced-cli.main" />
-        <option name="PROGRAM_PARAMETERS" value="
-            --options ../options.toml
-            -o ../revanced.apk
-            -a ../binaries/unpatched-input.apk
-            -t ../revanced-cache
-            -b ../revanced-patches/build/libs/revanced-patches-<version>.jar
-            -m ../revanced-integrations/app/build/outputs/apk/release/revanced-integrations-<version>.apk
-            -d device-name
-        />
-        <shortenClasspath name="NONE" />
-        <method v="2">
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="revanced-patcher [publish]" run_configuration_type="GradleRunConfiguration" />
-        <option name="RunConfigurationTask" enabled="true" run_configuration_name="revanced-patches [build]" run_configuration_type="GradleRunConfiguration" />
-        <option name="Make" enabled="true" />
-        </method>
-    </configuration>
+        <configuration default="false" name="Run ReVanced CLI" type="JetRunConfigurationType">
+            <option name="MAIN_CLASS_NAME" value="app.revanced.cli.main.MainKt" />
+            <module name="revanced-cli.main" />
+            <option name="PROGRAM_PARAMETERS" value="
+                --options ../options.toml
+                -o ../revanced.apk
+                -a ../binaries/unpatched-input.apk
+                -t ../revanced-cache
+                -b ../revanced-patches/build/libs/revanced-patches-<version>.jar
+                -m ../revanced-integrations/app/build/outputs/apk/release/revanced-integrations-<version>.apk
+                -d device-name"
+            />
+            <method v="2">
+                <option name="RunConfigurationTask" enabled="true" run_configuration_name="revanced-patcher [publish]" run_configuration_type="GradleRunConfiguration" />
+                <option name="RunConfigurationTask" enabled="true" run_configuration_name="revanced-patches [build]" run_configuration_type="GradleRunConfiguration" />
+                <option name="Make" enabled="true" />
+            </method>
+        </configuration>
     </component>
    ```
 
