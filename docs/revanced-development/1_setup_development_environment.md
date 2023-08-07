@@ -89,7 +89,7 @@ done
 
 To confirm your development environment works as intended, set a breakpoint in any patch from the `revanced-patches` project in IntelliJ IDEA. Run the build configuration for `revanced-cli` and confirm that your IDE reaches and breaks at the breakpoint. Continue and let ReVanced CLI exit.
 
-- If ReVanced CLI output is unexpected, confirm if you supplied the correct program arguments by following [💻 ReVanced CLI](/docs/revanced-development).
+- If ReVanced CLI output is unexpected, confirm if you supplied the correct program arguments by following [💻 ReVanced CLI](/docs/revanced-cli).
 
 - If the breakpoint was not hit, confirm that you correctly added the necessary projects as modules to the `revanced-cli` project
 
@@ -101,7 +101,7 @@ A couple of things should be considered with the development environment for ReV
 
 - Pull new commits from remote to keep your branch up to date
 
-- Keep your Run/Debug configuration up to date. Ensure you use the correct paths in your program argument after pulling new commits. If you forget to do this, you might end up debugging for hours until realising, you supply the wrong paths to ReVanced CLI
+- Keep your Run/Debug configuration up to date. After pulling new commits, ensure you use the correct paths in your program argument. If you forget to do this, you might end up debugging for hours until realising, you supply the wrong paths to ReVanced CLI
 
 - Use development branches and always branch off and PR to `dev` branches
 
