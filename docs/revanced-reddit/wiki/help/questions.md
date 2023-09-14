@@ -15,9 +15,10 @@ You can check the list of available patches at [revanced.app](https://revanced.a
 ## How can I help?
 
 Since we are an open-source community and depend on outside help, you can always check out our GitHub repositories and contribute to ReVanced by creating an issue or pull requests.
-Does ReVanced always stay up to date with X?
 
-ReVanced Patcher allows you to use patches on any app version. However, please note that patches may not work if you're not using the versions suggested by ReVanced Manager.,
+## Does ReVanced always stay up to date with X?
+
+ReVanced Patcher allows you to use patches on any app version. However, please note that patches may not work if you're not using the versions suggested by ReVanced Manager.
 
 ## Does ReVanced support this app?
 
