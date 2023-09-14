@@ -61,13 +61,14 @@ done
             <option name="MAIN_CLASS_NAME" value="app.revanced.cli.main.MainKt" />
             <module name="revanced-cli.main" />
             <option name="PROGRAM_PARAMETERS" value="
-                --options ../options.toml
-                -o ../revanced.apk
-                -a ../binaries/unpatched-input.apk
-                -t ../revanced-cache
+                patch
                 -b ../revanced-patches/build/libs/revanced-patches-<version>.jar
                 -m ../revanced-integrations/app/build/outputs/apk/release/revanced-integrations-<version>.apk
-                -d device-name"
+                -o ../revanced.apk
+                -d device-serial
+                -r ../revanced-cache
+                --options ../options.toml
+                ../binaries/unpatched-input.apk
             />
             <method v="2">
                 <option name="RunConfigurationTask" enabled="true" run_configuration_name="revanced-patcher [publish]" run_configuration_type="GradleRunConfiguration" />
@@ -101,7 +102,7 @@ A couple of things should be considered with the development environment for ReV
 
 - Pull new commits from remote to keep your branch up to date
 
-- Keep your Run/Debug configuration up to date. After pulling new commits, ensure you use the correct paths in your program argument. If you forget to do this, you might end up debugging for hours until realising, you supply the wrong paths to ReVanced CLI
+- Keep your Run/Debug configuration up to date. After pulling new commits, ensure you use the correct paths in your program argument. If you forget to do this, you might end up debugging for hours until realizing, you supply the wrong paths to ReVanced CLI
 
 - Use development branches and always branch off and PR to `dev` branches
 
