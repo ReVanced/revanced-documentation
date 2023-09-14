@@ -58,7 +58,7 @@ done
    ```xml
     <component name="ProjectRunConfigurationManager">
         <configuration default="false" name="Run ReVanced CLI" type="JetRunConfigurationType">
-            <option name="MAIN_CLASS_NAME" value="app.revanced.cli.main.MainKt" />
+            <option name="MAIN_CLASS_NAME" value="app.revanced.cli.command.MainCommand.kt" />
             <module name="revanced-cli.main" />
             <option name="PROGRAM_PARAMETERS" value="
                 patch
