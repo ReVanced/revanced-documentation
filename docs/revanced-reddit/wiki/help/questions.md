@@ -2,7 +2,7 @@
 
 ## How to get ReVanced?
 
-ReVanced is and will always be in development! You can follow [ReVanced Manager documentation](https://github.com/revanced/revanced-manager/tree/main/docs) to use ReVanced. Alternatively, you can use [ReVanced CLI documentation](https://github.com/revanced/revanced-cli/tree/main/docs).
+You can follow [ReVanced Manager documentation](https://github.com/revanced/revanced-manager/tree/main/docs) to use ReVanced Manager. Alternatively, you can follow [ReVanced CLI documentation](https://github.com/revanced/revanced-cli/tree/main/docs) to use ReVanced CLI.
 
 ## Does ReVanced support non-rooted devices?
 
