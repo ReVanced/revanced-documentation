@@ -18,3 +18,4 @@ jobs:
         with:
           message: 'chore: update docs for ${{ github.event.client_payload.repo }} to ${{github.event.client_payload.ref}}'
           fetch: false
+          default_author: ReVanced
