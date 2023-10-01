@@ -1,6 +1,6 @@
 # 🛠️ ReVanced Development
 
-Documentation to develop with ReVanced.
+Documentation to start working with ReVanced.
 
 ## 📖 Table of contents
 
