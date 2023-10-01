@@ -1,6 +1,6 @@
 # 🗄 ReVanced Documentation
 
-Documentation for ReVanced, also contains guides, walkthroughs and tutorials.
+Documentation for ReVanced. Also contains guides, walkthroughs, and tutorials.
 
 ## 📖 Table of contents
 
@@ -8,3 +8,4 @@ Documentation for ReVanced, also contains guides, walkthroughs and tutorials.
 - [🧩 ReVanced Patches](./docs/revanced-patches)
 - [💊 ReVanced Manager](./docs/revanced-manager)
 - [🛠️ ReVanced Development](./docs/revanced-development)
+- [🟠 ReVanced Reddit](./docs/revanced-reddit)
