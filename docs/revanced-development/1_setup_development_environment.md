@@ -19,17 +19,6 @@ done
 
 ## 2. 🛠️ Build from source
 
-### Before building you need to be authenticated to GitHub Packages. This will assume you have a GitHub account
-
-Create a PAT with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=ReVanced) and add your token to `~/.gradle/gradle.properties`.
-
-Example `gradle.properties` file:
-
-```properties
-gpr.user = ReVanced
-gpr.key = ghp_key
-```
-
 ### To build all projects, run the following command from the directory which contains the repositories
 
 ```bash
