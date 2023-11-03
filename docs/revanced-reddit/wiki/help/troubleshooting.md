@@ -2,7 +2,7 @@
 
 ## No internet connection in YouTube / YT Music
 
-If your YT ReVanced appears to not have internet and you recently changed your Google password, remove the Vanced MicroG account from within your device settings and then log back in. Alternatively, reinstall Vanced MicroG.
+Log out of the Vanced MicroG account within your device settings and log back in. Alternatively, reinstall Vanced MicroG.
 
 ## How to use the ReVanced Manager
 
@@ -19,7 +19,7 @@ Whitelist `s.youtube.com` in your ad-blocker.
 
 ## The player UI on YouTube doesn't go away
 
-You may have it set to permanently show in **Settings > Accessibility**. Otherwise, this issue occurs randomly and the only fix is to restart the app.
+You may set it to show in **Settings > Accessibility** permanently. Otherwise, this issue occurs randomly, and currently, the only fix is to restart the app.
 
 ## The shorts button on YouTube is gone
 
