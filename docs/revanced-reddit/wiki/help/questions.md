@@ -14,11 +14,11 @@ You can check the list of available patches at [revanced.app](https://revanced.a
 
 ## How can I help?
 
-Since we are an open-source community and depend on outside help, you can always check out our GitHub repositories and contribute to ReVanced by creating an issue or pull requests.
+Since we are an open-source community and depend on outside help, you can always check out our GitHub repositories and contribute to ReVanced by creating an issue or pull request.
 
 ## Does ReVanced always stay up to date with X?
 
-ReVanced Patcher allows you to use patches on any app version. However, please note that patches may not work if you're not using the versions suggested by ReVanced Manager.
+ReVanced Patcher allows you to patch any app version. However, patches may not work if you're not using the versions suggested by ReVanced Manager.
 
 ## Does ReVanced support this app?
 
@@ -30,7 +30,7 @@ Vanced is currently semi-functional and can be downloaded from mirrors. Issues i
 
 ## Can you help me?
 
-ReVanced is heavily in development. If you have a problem and need help, please include **all** relevant information regarding your issue in a new post. That includes information such as when the issue occurred, how it occurred, how we can reproduce the issue, your environment, versions of the tools you used, images and recordings, and your own tests.
+ReVanced is heavily in development. If you have a problem and need help, please include **all** relevant information regarding your issue in a new post. That includes information such as when the issue occurred, how it occurred, how we can reproduce the issue, your environment, versions of the tools you used, logs, images and recordings, and your own tests.
 
 ## Will MicroG stay up to date?
 
@@ -42,4 +42,4 @@ ReVanced is not affiliated with Vanced.
 
 ## How to update patched apps?
 
-To update a patched app, you need to patch the new version of the app.
+To update a patched app, you need to patch a clean APK using the new patches and then install it.
