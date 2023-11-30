@@ -57,7 +57,7 @@ done
                 -d device-serial
                 -r ../revanced-cache
                 --options ../options.toml
-                ../binaries/unpatched-input.apk
+                ../binaries/unpatched-input.apk"
             />
             <method v="2">
                 <option name="RunConfigurationTask" enabled="true" run_configuration_name="revanced-patcher [publish]" run_configuration_type="GradleRunConfiguration" />
