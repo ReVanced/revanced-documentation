@@ -19,7 +19,7 @@ Whitelist `s.youtube.com` in your ad-blocker.
 
 ## The player UI on YouTube doesn't go away
 
-You may have set it to permanently show in **Settings > Accessibility**. Otherwise, this issue occurs randomly, and currently, the only fix is to restart the app.
+You may have set it to show permanently in **Settings > Accessibility**. Otherwise, this issue occurs randomly; currently, the only fix is restarting the app.
 
 ## The shorts button on YouTube is gone
 
