@@ -8,4 +8,4 @@ Documentation for ReVanced. Also contains guides, walkthroughs, and tutorials.
 - [🧩 ReVanced Patches](./docs/revanced-patches)
 - [💊 ReVanced Manager](./docs/revanced-manager)
 - [🛠️ ReVanced Development](./docs/revanced-development)
-- [🟠 ReVanced Reddit](./docs/revanced-reddit)
+- [🟠 ReVanced Reddit](./docs/revanced-external-documentation/reddit)
