@@ -16,13 +16,13 @@ repositories=(
 )
 
 for repository in "${repositories[@]}" ; do
-        git clone -b dev --single-branch --depth 1 https://github.com/revanced/$repository
+    git clone -b dev --single-branch --depth 1 https://github.com/revanced/$repository
 done
 ```
 
 ## 2. 🛠️ Build
 
-To build all projects, run the following command from the directory which contains the repositories
+To build all projects, run the following command from the directory which contains the repositories.
 
 ```bash
 for project in */; do
@@ -73,16 +73,16 @@ done
        - Select the `revanced-patches` project and add the `build` task
        - Optionally, add the `revanced-integrations` project and the `build` task
 
-       Make sure the `Build` task of the `revanced-cli` project is the last task in the list
+       Ensure the `Build` task of the `revanced-cli` project is the last task in the list.
 
 > [!WARNING]  
 > With every release in the `revanced-patches` and `revanced-integrations` projects, the names of the artifacts change.
 > **Do not forget to update them in the run configuration program arguments when you pull new commits.**
 
 > [!TIP]  
-> In order to test the `revanced-patcher` and `revanced-library` projects, publish them to your local maven repository
+> To test the `revanced-patcher` and `revanced-library` projects, publish them to your local maven repository
 > by running `./gradlew publishToMavenLocal`.  
-> You can now use them as dependencies in your local projects such as in `revanced-patches` or `revanced-cli`.
+> You can now use them as dependencies in local projects such as `revanced-patches` or `revanced-cli`.
 
 ## 5. ⚠️ Troubleshoot your development environment
 
@@ -99,5 +99,5 @@ A couple of things should be considered with the development environment for ReV
 
 - Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - If you intend to contribute to ReVanced, ensure that you branch off and PR to `dev` branches and follow the contribution guidelines of the respective repository
-- Merge new commits reguarly from the remotes to keep your branch up to date
+- Merge new commits regularly from the remotes to keep your branch up to date
 - Keep your Run/Debug configuration up to date. After pulling new commits, ensure you use the correct paths in `Program arguments`. If you forget to do this, you might end up debugging for hours until realizing, you supply paths to old artifacts, because the artifact names change with new releases
