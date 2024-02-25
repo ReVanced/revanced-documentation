@@ -2,34 +2,36 @@
 
 A certain development environment is suggested to allow for streamlined development on ReVanced.
 
-## 1. ⬇️ Clone repositories
+## 🚀 Get started
 
-```bash
-mkdir revanced && cd revanced
+1. ⬇️ Clone repositories
+    
+    ```bash
+    mkdir revanced && cd revanced
+    
+    repositories=(
+        "revanced-cli"
+        "revanced-patches"
+        "revanced-patcher" # Only if you want to work on ReVanced Patcher
+        "revanced-library" # Only if you want to work on ReVanced Library
+        "revanced-integrations"
+    )
+    
+    for repository in "${repositories[@]}" ; do
+        git clone -b dev --single-branch --depth 1 https://github.com/revanced/$repository
+    done
+    ```
 
-repositories=(
-    "revanced-cli"
-    "revanced-patches"
-    "revanced-patcher" # Only if you want to work on ReVanced Patcher
-    "revanced-library" # Only if you want to work on ReVanced Library
-    "revanced-integrations"
-)
-
-for repository in "${repositories[@]}" ; do
-    git clone -b dev --single-branch --depth 1 https://github.com/revanced/$repository
-done
-```
-
-## 2. 🛠️ Build
-
-To build all projects, run the following command from the directory which contains the repositories.
-
-```bash
-for project in */; do
-    (cd "$project" && ./gradlew build)
-done
-```
-
+2. 🛠️ Build
+    
+    To build all projects, run the following command from the directory which contains the repositories.
+    
+    ```bash
+    for project in */; do
+        cd "$project" && ./gradlew build
+    done
+    ```
+    
 > [!NOTE]
 > If the build fails due to authentication, you may need to authenticate to GitHub Packages.
 > Create a PAT with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=ReVanced) and add your token to ~/.gradle/gradle.properties.
@@ -41,7 +43,7 @@ done
 > gpr.key = key
 > ```
 
-## ⚙️ Workspace setup in IntelliJ IDEA
+## ⚙️ Setup your workspace in IntelliJ IDEA
 
 1. Open the `revanced-cli` project in IntelliJ IDEA and ensure you are using the right JDK from [💼 Prerequisites](0_prerequisites.md)
 2. Import other projects you cloned earlier as modules to the `revanced-cli` project
@@ -84,7 +86,7 @@ done
 > by running `./gradlew publishToMavenLocal`.  
 > You can now use them as dependencies in local projects such as `revanced-patches` or `revanced-cli`.
 
-## 5. ⚠️ Troubleshoot your development environment
+## ⚠️ Troubleshoot your development environment
 
 Confirm that your development environment works as intended:
 
