@@ -4,13 +4,12 @@ To develop with ReVanced, you will need to fulfill certain requirements.
 
 ## 🤝 Requirements
 
-- A Java IDE such as [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-- An Android IDE such as [Android Studio](https://developer.android.com/studio)
-- Understanding on how to use the ReVanced CLI
+- A Java/ Kotlin IDE such as [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - Java SDK 17 (Azul JDK or OpenJDK)
+- Knowdledge of Git, Gradle and how to setup and use multi-module projects
 
 ## ⏭️ Whats next
 
-The next section will explain, how to setup a convenient development environment for ReVanced with [IntelliJ IDEA](https://www.jetbrains.com/idea/) and [Android Studio](https://developer.android.com/studio)
+The next section will explain, how to setup a convenient development environment for ReVanced with [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-Continue: [👨‍💻 Setup a development environment for ReVanced](1_setup_development_environment.md)
+Continue: [👨‍💻 Setup a development environment for ReVanced](1_setup.md)

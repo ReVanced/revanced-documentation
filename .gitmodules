@@ -1,7 +1,3 @@
-[submodule "repositories/revanced-patches"]
-	path = repositories/revanced-patches
-	url = https://github.com/revanced/revanced-patches
-	branch = docs
 [submodule "repositories/revanced-manager"]
 	path = repositories/revanced-manager
 	url = https://github.com/revanced/revanced-manager
@@ -10,3 +6,6 @@
 	path = repositories/revanced-cli
 	url = https://github.com/revanced/revanced-cli
 	branch = main
+[submodule "repositories/revanced-patcher"]
+	path = repositories/revanced-patcher
+	url = https://github.com/revanced/revanced-patcher
