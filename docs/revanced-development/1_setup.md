@@ -82,7 +82,7 @@ A certain development environment is suggested to allow for streamlined developm
 > **Do not forget to update them in the run configuration program arguments when you pull new commits.**
 
 > [!TIP]  
-> To test the `revanced-patcher` and `revanced-library` projects, publish them to your local maven repository
+> To test the `revanced-patcher` and `revanced-library` projects, publish them to your local Maven repository
 > by running `./gradlew publishToMavenLocal`.  
 > You can now use them as dependencies in local projects such as `revanced-patches` or `revanced-cli`.
 
@@ -92,7 +92,7 @@ Confirm that your development environment works as intended:
 
 - Debug the build configuration for `revanced-cli` and confirm that your IDE reaches and breaks at the breakpoint. Continue and let ReVanced CLI exit.
 
-  - If ReVanced CLI output is unexpected, confirm if you supplied the correct program arguments by following [💻 ReVanced CLI](/docs/revanced-cli).
+  - If the ReVanced CLI output is unexpected, confirm that you supplied the correct program arguments by following [💻 ReVanced CLI](/docs/revanced-cli).
   - If the breakpoint was not hit, confirm that you correctly added the necessary projects as modules to the `revanced-cli` project
 
 ## ❗ Afterword
