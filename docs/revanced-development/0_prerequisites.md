@@ -6,7 +6,7 @@ To develop with ReVanced, you will need to fulfill certain requirements.
 
 - A Java/ Kotlin IDE such as [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - Java SDK 17 (Azul JDK or OpenJDK)
-- Knowdledge of Git, Gradle and how to setup and use multi-module projects
+- Knowledge of Git, Gradle and how to setup and use multi-module projects
 
 ## ⏭️ Whats next
 
