@@ -54,13 +54,9 @@ This implies that you must remove the previous installation to solve the conflic
 
 The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
 
-## Endscreen cards are missing
+## Endscreen cards are missing/Ambient mode does not work
 
-This is a side effect caused by a recent workaround for [this](#links-dont-open-in-a-patched-app) issue . Please refer to https://github.com/revanced/revanced-patches/issues/1752.
-
-## Ambient mode does not work
-
-This is a side effect caused by a recent workaround for [this](#links-dont-open-in-a-patched-app) issue . Please refer to https://github.com/revanced/revanced-patches/issues/1752.
+This is a side effect caused by a recent workaround for [this](#links-dont-open-in-a-patched-app) issue. Please refer to https://github.com/revanced/revanced-patches/issues/1752.
 
 ## Seekbar preview missing in YouTube
 
