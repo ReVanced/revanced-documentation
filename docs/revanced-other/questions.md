@@ -24,7 +24,7 @@ ReVanced Patcher allows you to patch any app version. However, patches may not w
 
 You can check supported apps and their patches on the [ReVanced Website](https://revanced.app/patches).
 
-## Where to get (full) APKs
+## Where to get (full) APKs?
 
 You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com) or [APKPure](https://apkpure.net). An APK ends with the extension `.apk`.
 
