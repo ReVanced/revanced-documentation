@@ -1,8 +1,10 @@
 # **Troubleshooting**
 
-## No internet connection in YouTube / YT Music
+This is a collection of common errors and fixes.
 
-Log out of the Vanced MicroG account within your device settings and log back in. Alternatively, reinstall Vanced MicroG.
+## No internet connection
+
+Re-login into Vanced MicroG or reinstall it.
 
 ## How to use the ReVanced Manager
 
@@ -10,39 +12,35 @@ Follow the [official](https://github.com/revanced/revanced-manager/tree/main/doc
 
 ## YouTube is crashing on startup or redirecting me to a page after applying patches
 
-You might likely be patching a split APK file, so refer to **Where to get _full_ APK files**, or you might be missing [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases). Install it. Otherwise, refer to **How to use the ReVanced Manager** and check [Frequently Asked Questions](https://www.reddit.com/r/revancedapp/wiki/help/questions/) for **Can you support me?
-**.
+You might likely be patching a split APK file or missing. Refer to [this](questions.md#where-to-get-full-apks) question. Or you might be missing [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases/latest). Install it.
 
 ## Watch history isn't being saved on YouTube
 
-Whitelist `s.youtube.com` in your ad-blocker.
+Whitelist `s.youtube.com` in your ad-blocker or refer to [this](https://discord.com/channels/952946952348270622/954833032114733086/1213562098244788275) announcement.
 
 ## The player UI on YouTube doesn't go away
 
-You may have set it to show permanently in **Settings > Accessibility**. Otherwise, this issue occurs randomly; currently, the only fix is restarting the app.
+This issue occurs randomly. Currently, the only fix is to restart the app.
 
-## The shorts button on YouTube is gone
+## The shorts button in YouTube is gone
 
-Disable **Settings > ReVanced > Layout > Navigation button settings > Hide Shorts button**.
+Disable `General layout > Navigation button > Hide shorts button`.
 
 ## ReVanced Manager is crashing/not working
 
-ReVanced Manager is still a work in progress. Before submitting an issue, ensure it is not duplicating an existing issue.
+ReVanced Manager is still a work in progress. Before submitting an issue, make sure it is not a duplicate of an existing issue.
 
 ## Google login does not work on
 
-Please use a username/password to log in.
+Please use username/password to login.
 
 ## Links don't open in a patched app
 
 Follow [this](https://support.google.com/pixelphone/answer/6271667). The process may vary for your device. You may need to disable or uninstall the unpatched app that occupies the links to set them for the patched app.
 
 ## `org.schabi.newpipe` is not installed
-Please install NewPipe [here](https://newpipe.net/#download).
 
-## Where to get _full_ APK files
-
-You can get a _full_ APK from mirroring sites such as [APKMirror](https://www.apkmirror.com/). In the example of YouTube, you would want to download the full APK from APKMirror [here](https://www.apkmirror.com/apk/google-inc/youtube//) until ReVanced introduces support for APK _bundles_ or _split_ APK files.
+Please install NewPipe from [here](https://newpipe.net/#download).
 
 ## Videos do not play or rewind
 
@@ -55,3 +53,29 @@ This implies that you must remove the previous installation to solve the conflic
 ## SponsorBlock does not work
 
 The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
+
+## Endscreen cards are missing/Ambient mode does not work
+
+This is a side effect caused by a recent workaround for [this](#links-dont-open-in-a-patched-app) issue. Please refer to https://github.com/revanced/revanced-patches/issues/1752.
+
+## Seekbar preview missing in YouTube
+
+A recent patch causes this. You can find it in [this](https://discord.com/channels/952946952348270622/954833032114733086/1121235521801310229) announcement. Currently, your only option is to disable the patch in the settings. This may cause playback issues.
+
+## Playback stops
+
+Check [this](https://discord.com/channels/952946952348270622/954833032114733086/1121235521801310229) announcement.
+
+## Common issues during or after patching
+
+You may have toggled settings in ReVanced Manager that are not recommended to change. Please review the warnings that appear when adjusting these settings and reset them to their default configuration.
+
+## No ReVanced logo after patching YouTube
+
+By default, the patch to change the logo of the YouTube app is not applied. Use the `Custom branding` patch to change the logo.
+
+## YouTube Shorts still not hidden
+
+To hide YouTube shorts, use the Hide Shorts components and Navigation buttons patches. In the YouTube settings, enable:
+- `Shorts > Hide Shorts in feed`
+- `General layout> Navigation buttons > Hide Shorts button`

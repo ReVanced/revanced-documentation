@@ -20,26 +20,31 @@ Since we are an open-source community and depend on outside help, you can always
 
 ReVanced Patcher allows you to patch any app version. However, patches may not work if you're not using the versions suggested by ReVanced Manager.
 
-## Does ReVanced support this app?
+## What patches exist?
 
 You can check supported apps and their patches on the [ReVanced Website](https://revanced.app/patches).
 
-## Does Vanced still work?
+## Where to get (full) APKs?
 
-Vanced is currently semi-functional and can be downloaded from mirrors. Issues include occasional ads and playback issues, which may be resolved by applying our Vanced patches.
+You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com) or [APKPure](https://apkpure.net). An APK ends with the extension `.apk`.
+
+## Capture logs from patched YouTube
+
+1. Turn on `Misc > Debugging > Debug logging` (Make sure you have applied the `Enable debugging` patch)
+2. Open a shell over ADB and capture logs using the command `logcat | grep revanced:` (or `logcat | grep AndroidRuntime` for exception logs). Alternatively, any app capable of capturing logs using Logcat can be used
 
 ## Can you help me?
 
-ReVanced is heavily in development. If you have a problem and need help, please include **all** relevant information regarding your issue in a new post. That includes information such as when the issue occurred, how it occurred, how we can reproduce the issue, your environment, versions of the tools you used, logs, images and recordings, and your own tests.
+Include all relevant information regarding your issue in [#⁠🆘・support](https://discord.com/channels/952946952348270622/1135563848586379264). Mention the issues, how they occurred, how we can reproduce them, your environment, versions of the tools you used, images and recordings, logs, and your attempts to fix them.
 
-## Will MicroG stay up to date?
+## What is GmsCore and where to download Vanced MicroG?
 
-MicroG and Vanced MicroG are currently under development by their respective maintainer.
+GmsCore and Vanced MicroG are free implementations of Google Play Services necessary to run patched Google apps such as YouTube. Vanced MicroG can be obtained from [here](https://github.com/TeamVanced/VancedMicroG/releases/latest).
 
 ## Is ReVanced affiliated with Vanced?
 
-ReVanced is not affiliated with Vanced.
+No! ReVanced is not affiliated with Vanced.
 
 ## How to update patched apps?
 
-To update a patched app, you need to patch a clean APK using the new patches and then install it.
+To update a patched app, you need to patch the new version of the app.
