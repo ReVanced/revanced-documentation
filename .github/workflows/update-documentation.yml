@@ -18,4 +18,8 @@ jobs:
         with:
           message: 'chore: update docs for ${{ github.event.client_payload.repo }} to ${{github.event.client_payload.ref}}'
           fetch: false
-          default_author: ReVanced
+          default_author: user_info
+          author_name: ReVanced Bot
+          author_email: contact@revanced.app
+          committer_name: ReVanced Bot
+          committer_email: contact@revanced.app
