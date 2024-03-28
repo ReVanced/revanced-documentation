@@ -4,7 +4,7 @@ This is a collection of common errors and fixes.
 
 ## No internet connection
 
-Re-login into Vanced MicroG or reinstall it.
+Re-login into GmsCore or reinstall it.
 
 ## How to use the ReVanced Manager
 
@@ -12,7 +12,7 @@ Follow the [official](https://github.com/revanced/revanced-manager/tree/main/doc
 
 ## YouTube is crashing on startup or redirecting me to a page after applying patches
 
-You might likely be patching a split APK file or missing. Refer to [this](questions.md#where-to-get-full-apks) question. Or you might be missing [Vanced MicroG](https://github.com/TeamVanced/VancedMicroG/releases/latest). Install it.
+You might likely be patching a split APK file or missing. Refer to [this](questions.md#where-to-get-full-apks) question. Or you might be missing [GmsCore](https://github.com/ReVanced/GmsCore/releases/latest). Install it.
 
 ## Watch history isn't being saved on YouTube
 
