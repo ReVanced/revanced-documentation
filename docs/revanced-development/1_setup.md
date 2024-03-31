@@ -28,7 +28,7 @@ A certain development environment is suggested to allow for streamlined developm
     
     ```bash
     for project in */; do
-        cd "$project" && ./gradlew build
+        cd "$project" && ./gradlew build && cd ..
     done
     ```
     
