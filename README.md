@@ -71,9 +71,9 @@ Collection of all ReVanced documentation.
 - [🟠 ReVanced Other](./docs/revanced-other): Miscellaneous documents used on our platforms, such as Reddit or Discord
 
 > [!WARNING]  
-> Under `docs/` you will find symbolic links to the documentation of the respective repositories.
+> Under [docs](docs) you will find symbolic links to the documentation of the respective repositories.
 >
-> Because GitHub does not render symbolic links, you need to clone this repository recursively to see the content of the linked directories or browse the submodules directly under `repositories/`.
+> Because GitHub does not render symbolic links, you need to clone this repository recursively to see the content of the linked directories or browse the submodules directly under [repositories](repositories).
 
 ## 🚀 Get started
 
