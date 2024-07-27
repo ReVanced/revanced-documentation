@@ -28,19 +28,19 @@ A certain development environment is suggested to allow for streamlined developm
     
     ```bash
     for project in */; do
-        cd "$project" && ./gradlew build
+        cd "$project" && ./gradlew build && cd ..
     done
     ```
     
 > [!NOTE]
 > If the build fails due to authentication, you may need to authenticate to GitHub Packages.
-> Create a PAT with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=ReVanced) and add your token to ~/.gradle/gradle.properties.
+> Create a personal access tokens with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=ReVanced) and add your token to ~/.gradle/gradle.properties. Create the file if it does not exist.
 >
 > Example `gradle.properties` file:
 >
 > ```properties
-> gpr.user = user
-> gpr.key = key
+> gpr.user = <GitHub username>
+> gpr.key = <Personal access token>
 > ```
 
 ## ⚙️ Setup your workspace in IntelliJ IDEA
