@@ -40,7 +40,7 @@ A certain development environment is suggested to allow for streamlined developm
 >
 > ```properties
 > gpr.user = <GitHub username>
-> gpr.key = <Generated Personal Access Token>
+> gpr.key = <Personal access token>
 > ```
 
 ## ⚙️ Setup your workspace in IntelliJ IDEA
