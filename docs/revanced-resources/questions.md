@@ -1,10 +1,10 @@
 # Frequently asked questions
 
-Please make sure to read them before asking questions that have been asked too many times, thanks.
+Please read them before asking questions that have been asked too many times.
 
 ## 2 Is ReVanced available on iOS or TV?
 
-ReVanced is a patcher for Android apps. Android is very different from iOS. Therefore, ReVanced is not available on iOS. The nearest equivalent to ReVanced on iOS is [Theos](https://theos.dev/). If your TV runs Android, it may be possible to use ReVanced on it.
+ReVanced is a patcher for Android apps. Android is very different from iOS. Therefore, ReVanced is not available on iOS. The nearest equivalent to ReVanced on iOS is [Theos](https://theos.dev/). If your TV runs Android, it may be possible to use ReVanced.
 
 ## 3 How to get ReVanced?
 
@@ -36,7 +36,7 @@ You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com
 
 ## 10 Capture logs from patched YouTube
 
-1. Turn on `Misc > Debugging > Debug logging` (Make sure you have used the `Enable debugging` patch).  
+1. Turn on `Misc > Debugging > Debug logging` (Ensure you have used the `Enable debugging` patch).  
 2. Open a shell over ADB and capture logs using the command `logcat | grep revanced:` (or `logcat | grep AndroidRuntime` for exception logs). Alternatively, any app capable of capturing logs using Logcat can be used.
 
 ## 11 Can you help me?
@@ -56,6 +56,6 @@ If you patched YouTube with the `GmsCore support` patch, opening YouTube will re
 
 ReVanced is not affiliated with Vanced.
 
-## 14🔸 How to update patched apps?
+## 14 How to update patched apps?
 
 To update a patched app, you need to patch and install the new version of the app. See #3 in [Questions](questions.md).
