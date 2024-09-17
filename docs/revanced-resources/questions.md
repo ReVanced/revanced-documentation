@@ -34,9 +34,9 @@ You can check supported apps and their patches on the [ReVanced Website](https:/
 
 You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com/) or [APKPure](https://apkpure.net/de). An APK ends with the extension `.apk`.
 
-## 10 Capture logs from patched YouTube
+## 10 Capture logs 
 
-1. Turn on `Misc > Debugging > Debug logging` (Ensure you have used the `Enable debugging` patch).  
+1. (Only if the setting exists) Turn on `Misc > Debugging > Debug logging` in the settings (Ensure you have used the `Enable debugging` patch).  
 2. Open a shell over ADB and capture logs using the command `logcat | grep revanced:` (or `logcat | grep AndroidRuntime` for exception logs). Alternatively, any app capable of capturing logs using Logcat can be used.
 
 ## 11 Can you help me?
