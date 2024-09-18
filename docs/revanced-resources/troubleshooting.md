@@ -16,9 +16,8 @@ You might likely be patching a split APK file, so refer to `9`, or you might be 
 
 ## 18 Watch history isn't being saved on YouTube
 
-- If you are using a YouTube brand account, you are currently affected by a side-effect of the `Spoof client` patch. A temporary workaround is to use a regular YouTube account instead. The issue is tracked [here](https://github.com/ReVanced/revanced-patches/issues/3208).
-- If you are using a regular YouTube account instead, whitelist `s.youtube.com` in your system ad-blocker if you have one.
-- Otherwise refer to [this](https://www.reddit.com/r/revancedapp/comments/1b4vuh7/youtube_history_fixed/) Reddit post.
+- If you use a regular YouTube account instead, whitelist `s.youtube.com` in your system ad-blocker if you have one.
+- Otherwise refer to [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
 
 ## 19 The player UI on YouTube doesn't go away
 
