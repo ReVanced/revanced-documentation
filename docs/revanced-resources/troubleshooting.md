@@ -23,17 +23,17 @@ You might likely be patching a split APK file, so refer to `9`, or you might be 
 
 This issue occurs randomly. Currently, the only fix is to restart the app.
 
-## 20 The shorts button in YouTube is gone
+## 20 The shorts button on YouTube is gone
 
 Disable `General layout > Navigation button > Hide shorts button`.
 
 ## 21 ReVanced Manager is crashing/not working
 
-ReVanced Manager is still work in progress. Before submitting an issue, make sure it is not a duplicate of an existing issue.
+ReVanced Manager is still a work in progress. Before submitting an issue, ensure it is not duplicating an existing issue.
 
 ## 22 Google login does not work
 
-Please use username/password to login.
+Use a username/password to log in.
 
 ## 23 Links don't open in a patched app
 
@@ -59,17 +59,17 @@ This was a side-effect of the `Spoof client` patch, which was already fixed in a
 
 This is currently a side-effect of the `Spoof client` patch. The issue is tracked [here](https://github.com/ReVanced/revanced-patches/issues/3208).
 
-## 31 YouTube live streams playing in low resolution
+## 31 YouTube live streams playing in low-resolution
 
 This is currently a side-effect of the `Spoof client` patch. The issue is tracked [here](https://github.com/ReVanced/revanced-patches/issues/3208).
 
 ## 32 YouTube video not playing
 
-If the video is instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube. If playback stops and buffers infinitely, see [this](https://www.reddit.com/r/revancedapp/comments/1cwvda7/youtube_playback_issue_fixed) Reddit post.
+If the video is instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube. If playback stops and buffers infinitely, see [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
 
 ## 33 Common issues during or after patching
 
-You may have toggled settings in ReVanced Manager that are not recommended to change. Please review the warnings that appear when adjusting these settings and reset them to their default configuration.
+You may have toggled settings in ReVanced Manager that are not recommended to change. Please review the warnings when adjusting these settings and reset them to their default configuration.
 
 ## 34 No ReVanced logo after patching YouTube
 
@@ -77,7 +77,7 @@ By default, the patch to change the logo of the YouTube app is not applied. Use 
 
 ## 35 YouTube Shorts still not hidden
 
-To hide YouTube shorts, use the `Hide Shorts components` and `Navigation buttons` patches. In the YouTube settings, enable:
+Use the `Hide Shorts components` and `Navigation buttons` patches to hide YouTube shorts. In the YouTube settings, enable:
 
 - `Shorts > Hide Shorts in feed`
 - `General layout > Navigation buttons > Hide Shorts button`
