@@ -51,18 +51,6 @@ This implies that you must remove the previous installation to solve the conflic
 
 The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
 
-## 29 YouTube playback speed menu entry missing
-
-This was a side-effect of the `Spoof client` patch, which was already fixed in a later release of ReVanced Patches. Patch YouTube with the latest version of ReVanced Patches.
-
-## 30 YouTube player swipe gestures not working
-
-This is currently a side-effect of the `Spoof client` patch. The issue is tracked [here](https://github.com/ReVanced/revanced-patches/issues/3208).
-
-## 31 YouTube live streams playing in low-resolution
-
-This is currently a side-effect of the `Spoof client` patch. The issue is tracked [here](https://github.com/ReVanced/revanced-patches/issues/3208).
-
 ## 32 YouTube video not playing
 
 If the video is instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube. If playback stops and buffers infinitely, see [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
