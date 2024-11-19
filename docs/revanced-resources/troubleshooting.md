@@ -53,7 +53,8 @@ The servers of SponsorBlock are likely having issues right now. Review the [curr
 
 ## 32 YouTube video not playing
 
-If the video is instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube. If playback stops and buffers infinitely, see [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
+If the video is instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube.
+If playback stops and buffers infinitely, or you get an error when trying to play it, see [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
 
 ## 33 Common issues during or after patching
 
