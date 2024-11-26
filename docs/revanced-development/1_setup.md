@@ -4,8 +4,8 @@ A certain development environment is suggested to allow for streamlined developm
 
 ## 🚀 Get started
 
-1. ⬇️ Clone repositories
-    
+1. **Clone repositories**
+
     ```bash
     mkdir revanced && cd revanced
     
@@ -14,7 +14,6 @@ A certain development environment is suggested to allow for streamlined developm
         "revanced-patches"
         "revanced-patcher" # Only if you want to work on ReVanced Patcher
         "revanced-library" # Only if you want to work on ReVanced Library
-        "revanced-integrations"
     )
     
     for repository in "${repositories[@]}" ; do
@@ -22,16 +21,16 @@ A certain development environment is suggested to allow for streamlined developm
     done
     ```
 
-2. 🛠️ Build
-    
-    To build all projects, run the following command from the directory which contains the repositories.
-    
+2. **Build**
+
+    Ensure, that all projects build successfully. Run the following command in the `revanced` directory:
+
     ```bash
     for project in */; do
         cd "$project" && ./gradlew build && cd ..
     done
     ```
-    
+
 > [!NOTE]
 > If the build fails due to authentication, you may need to authenticate to GitHub Packages.
 > Create a personal access tokens with the scope `read:packages` [here](https://github.com/settings/tokens/new?scopes=read:packages&description=ReVanced) and add your token to ~/.gradle/gradle.properties. Create the file if it does not exist.
@@ -43,63 +42,113 @@ A certain development environment is suggested to allow for streamlined developm
 > gpr.key = <Personal access token>
 > ```
 
-## ⚙️ Setup your workspace in IntelliJ IDEA
+## ⚙️ Setting up your workspace in IntelliJ IDEA
 
-1. Open the `revanced-cli` project in IntelliJ IDEA and ensure you are using the right JDK from [💼 Prerequisites](0_prerequisites.md)
-2. Import other projects you cloned earlier as modules to the `revanced-cli` project
+Follow these steps to configure your development environment for the `revanced-cli` project in IntelliJ IDEA:
 
-   - Open the `Project Structure` dialog by pressing `Ctrl + Alt + Shift + S`
-   - Click on `Modules` and add the other projects as modules to the `revanced-cli` project
+1. **Open the `revanced-cli` project**:
 
-3. Add a new Run/Debug configuration for `revanced-cli`; Make sure to add `Before launch` tasks to build `revanced-patches` or `revanced-integrations` if necessary
+   - Open the `revanced-cli` project in IntelliJ IDEA
+   - Ensure you are using the correct JDK as specified in [💼 Prerequisites](0_prerequisites.md)
 
-   - Open the `Run/Debug Configurations` dialog by pressing `Alt + Shift + F10` and selecting `Edit Configurations...`
-   - Add a new `Kotlin` configuration and configure it as follows:
+2. **Import projects**:
 
-     - `Main class`: `app.revanced.cli.command.MainCommandKt`
-     - `Program arguments`: The program arguments you would use to run ReVanced CLI from the command line
-       Example program arguments:
+   Import the projects you cloned as modules into the `revanced-cli` project:
 
-       ```sh
-       patch
-       -b revanced-patches\build\libs\revanced-patches-<version>.jar
-       -m revanced-integrations\app\build\outputs\apk\release\revanced-integrations-<version>.apk
-       binaries\some.apk
-       -d
-       ```
+   1. Open the **Project Structure** dialog by pressing **Ctrl + Alt + Shift + S**
+   2. Navigate to the **Modules** section
+   3. Import each additional project as a module under the `revanced-cli` project
 
-     - `Working directory`: The parent directory of the `revanced-cli` project (`$ProjectFileDir$/..`)
-     - `Before launch`: Add a `Gradle` task to build `revanced-patches` (and `revanced-integrations` if necessary)
+3. **Synchronize Gradle projects**:
 
-       - Click on the `+` button and select `Gradle`
-       - Select the `revanced-patches` project and add the `build` task
-       - Optionally, add the `revanced-integrations` project and the `build` task
+   - Click on the **Sync All Gradle Projects** button in the Gradle tool window
+   - Verify that all Gradle projects are imported successfully without errors
 
-       Ensure the `Build` task of the `revanced-cli` project is the last task in the list.
+4. **Configure the Run Configuration for `revanced-cli`**:
 
-> [!WARNING]  
-> With every release in the `revanced-patches` and `revanced-integrations` projects, the names of the artifacts change.
-> **Do not forget to update them in the run configuration program arguments when you pull new commits.**
+   1. Locate the `app.revanced.cli.command.MainCommandKt` class in the `revanced-cli` project
+   2. Click the green **Play** button next to the `main` function. This will generate a new run configuration
+   3. Edit the run configuration as follows:
 
-> [!TIP]  
-> To test the `revanced-patcher` and `revanced-library` projects, publish them to your local Maven repository
-> by running `./gradlew publishToMavenLocal`.  
-> You can now use them as dependencies in local projects such as `revanced-patches` or `revanced-cli`.
+      - **Program arguments**: Specify the arguments you would use to run ReVanced CLI from the command line. Example:
+
+        ```sh
+        patch
+        -p revanced-patches\patches\build\libs\patches-<version>.rvp
+        binaries\some.apk
+        -i # Install the patched APK to a device connected via ADB after patching
+        ```
+
+      - **Working directory**: Set to the parent directory of the `revanced-cli` project:
+
+        ```sh
+        $ProjectFileDir$/..
+        ```
+
+      - **Before launch**: Add a Gradle task to build `revanced-patches:patches`:
+
+        1. Click the **+** button and select **Run Gradle Task**
+        2. Choose the `revanced-patches:patches` project and add the `build` task
+
+> [!WARNING]
+> The RVP file names in `revanced-patches` change with each release.  
+> **Ensure you update the path to the patches in the run configuration program arguments whenever you pull new commits.**
+
+### 🥼 Working on `revanced-patcher` and `revanced-library` (Optional)
+
+1. **Import as modules**: Import `revanced-patcher` and `revanced-library` as modules in the `revanced-cli` project
+
+2. **Update versions**:
+
+   - In their respective `gradle.properties` files, bump the version to a unique value that is not already published in any other repository
+
+3. **Add the local Maven repository**: Add `mavenLocal()` to the `repositories` block of the projects that need to use the locally published versions
+
+4. **Update dependencies**: Update the dependency version in the `libs.versions.toml` file of the dependent projects to match the version in `gradle.properties`
+
+5. **Configure module dependencies**:
+
+   - Go to **Project Structure**
+   - Select the `main` module of your project
+   - Under the **Dependencies** tab, remove the existing dependencies to `revanced-patcher` or `revanced-library`
+   - Add new dependencies by clicking `+` > **Module Dependency**
+   - Select `revanced-patcher.main` or `revanced-library.jvmMain`
+
+6. **Set up local publication**:
+
+   - Add **Before launch** tasks in the `revanced-cli` run configuration
+   - Use the `publishToMavenLocal` Gradle task to publish the `revanced-patcher` and `revanced-library` projects to your local Maven repository
+
+## ✅ Verify your setup
+
+Now that you have set up your development environment, verify that everything works as intended:
+
+1. **Run ReVanced CLI**:
+
+   - Run the `revanced-cli` project with the run configuration you created
+   - Confirm that the CLI starts and executes the command you specified in the program arguments
+
+2. **Edit the projects**:
+
+   Make a small change in the projects and confirm that the changes are reflected, when you run the project
+
+3. **Test debugging**:
+
+   - Set a breakpoint in the projects
+   - Run the project in debug mode and confirm that the breakpoint is hit
+   - Continue and let ReVanced CLI exit
 
 ## ⚠️ Troubleshoot your development environment
 
-Confirm that your development environment works as intended:
+- **Projects fail to build**: Ensure that you have the correct JDK version installed. Check the `JAVA_HOME` environment variable and the JDK version in IntelliJ IDEA. Make sure you are authenticated to GitHub Packages if the build fails due to authentication issues
+- **Run configuration fails**: Check the program arguments and working directory in the run configuration. Ensure that the paths are correct and up to date with the latest changes in the repositories
+- **Breakpoints are not hit**: Ensure that you are running the project in debug mode and that the paths are correct in the run configuration
+- **Dependencies are not resolved**: Make sure, the dependencies are published to the local Maven repository, `mavenLocal()` is present in the repositories block and the correct version of the dependencies is specified in the `libs.versions.toml` file
+- **Changes in projects are not reflected**: Ensure, that after making changes in the projects, the `revanced-patches` project is built, and the run configuration is updated with the latest path to the patches file. Also, ensure that the libraries are published to the local Maven repository and the dependencies are correctly set up in the **Project Structure** dialog. Ensure, the correct version of the dependencies is specified in the `libs.versions.toml` file
 
-- Debug the build configuration for `revanced-cli` and confirm that your IDE reaches and breaks at the breakpoint. Continue and let ReVanced CLI exit.
+## 📜 Project specific documentations
 
-  - If the ReVanced CLI output is unexpected, confirm that you supplied the correct program arguments by following [💻 ReVanced CLI](/docs/revanced-cli).
-  - If the breakpoint was not hit, confirm that you correctly added the necessary projects as modules to the `revanced-cli` project
+To learn more about the individual projects, refer to their respective documentations:
 
-## ❗ Afterword
-
-A couple of things should be considered with the development environment for ReVanced:
-
-- Follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- If you intend to contribute to ReVanced, ensure that you branch off and PR to `dev` branches and follow the contribution guidelines of the respective repository
-- Merge new commits regularly from the remotes to keep your branch up to date
-- Keep your Run/Debug configuration up to date. After pulling new commits, ensure you use the correct paths in `Program arguments`. If you forget to do this, you might end up debugging for hours until realizing, you supply paths to old artifacts, because the artifact names change with new releases
+- [ReVanced CLI](https://github.com/ReVanced/revanced-cli/tree/main/docs)
+- [ReVanced Patcher](https://github.com/ReVanced/revanced-patcher/tree/main/docs)
