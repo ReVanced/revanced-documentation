@@ -51,10 +51,12 @@ This implies that you must remove the previous installation to solve the conflic
 
 The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
 
-## 32 YouTube video not playing
+## 32 YouTube or YouTube Music playback not working
 
-If the video is instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube.
 If playback stops and buffers infinitely, or you get an error when trying to play it, see [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
+For YouTube Music, see [this](https://www.reddit.com/r/revancedapp/comments/1hfr6ne/youtube_music_playback_issues_fixed/) Reddit post.
+
+If videos on YouTube are instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube.
 
 ## 33 Common issues during or after patching
 
