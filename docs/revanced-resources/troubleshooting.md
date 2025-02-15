@@ -4,7 +4,7 @@ This is a collection of common errors and fixes.
 
 ## 15 No internet connection
 
-This issue can be caused by changing your Google account password. Re-login into GmsCore or reinstall it.
+This issue can be caused by changing your Google account password. Re-login into MicroG GmsCore, or uninstall then reinstall MicroG.
 
 ## 16 How to use the ReVanced Manager
 
@@ -23,9 +23,9 @@ You might likely be patching a split APK file, so refer to `9`, or you might be 
 
 This issue occurs randomly. Currently, the only fix is to restart the app.
 
-## 20 The shorts button on YouTube is gone
+## 20 The Shorts tab button on YouTube is gone
 
-Disable `General layout > Navigation button > Hide shorts button`.
+Disable `General > Navigation buttons > Hide Shorts button`.
 
 ## 21 ReVanced Manager is crashing/not working
 
@@ -45,7 +45,7 @@ Please install NewPipe [here](https://newpipe.net/#download).
 
 ## 27 Installation is blocked due to conflicting with an existing installation
 
-This implies that you must remove the previous installation to solve the conflict.
+This implies that you must remove the previous installation to solve the conflict.  If patching YouTube and your device is not rooted then ensure `GmsCore support` was included during patching.
 
 ## 28 SponsorBlock does not work
 
@@ -71,4 +71,14 @@ By default, the patch to change the logo of the YouTube app is not applied. Use 
 Use the `Hide Shorts components` and `Navigation buttons` patches to hide YouTube shorts. In the YouTube settings, enable:
 
 - `Shorts > Hide Shorts in feed`
-- `General layout > Navigation buttons > Hide Shorts button`
+- `General > Navigation buttons > Hide Shorts button`
+
+## 36 Audio track menu is missing
+
+Change to iOS TV in `Miscellaneous > Spoof video streams`
+
+## 37 Videos are playing with AI translated audio
+
+Change to iOS TV spoofing (item `36`), then enable `Force original audio` in `Video` settings
+
+
