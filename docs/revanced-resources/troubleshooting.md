@@ -2,6 +2,18 @@
 
 This is a collection of common errors and fixes.
 
+## 4 Audio track menu is missing
+
+Change to iOS TV in `Settings > ReVanced > Miscellaneous > Spoof video streams`
+
+## 5 Videos play with automatically dubbed AI audio translations
+
+Change spoofing to iOS TV (item `4`), then enable `Force original audio language` in the `Video` settings
+
+## 6 PiP Background playback buttons do not work (pause/headphone buttons do not work)
+
+This is a bug in unpatched YouTube. If the screen is locked then unlocked while a video is playing in the background, the PiP buttons will stop working until the video is closed. This bug is not present when patching older versions of YouTube (19.16.39).
+
 ## 15 No internet connection
 
 This issue can be caused by changing your Google account password. Re-login into MicroG GmsCore, or uninstall then reinstall MicroG.
@@ -16,8 +28,7 @@ You might likely be patching a split APK file, so refer to `9`, or you might be 
 
 ## 18 Watch history isn't being saved on YouTube
 
-- If you use a regular YouTube account instead, whitelist `s.youtube.com` in your system ad-blocker if you have one.
-- Otherwise refer to [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
+If you use a regular YouTube account instead, whitelist `s.youtube.com` in your system ad-blocker if you have one.
 
 ## 19 The player UI on YouTube doesn't go away
 
@@ -68,17 +79,10 @@ By default, the patch to change the logo of the YouTube app is not applied. Use 
 
 ## 35 YouTube Shorts still not hidden
 
-Use the `Hide Shorts components` and `Navigation buttons` patches to hide YouTube shorts. In the YouTube settings, enable:
+Use the `Hide Shorts components` and `Navigation buttons` patches to hide YouTube shorts. In the YouTube ReVanced settings, enable:
 
 - `Shorts > Hide Shorts in feed`
 - `General > Navigation buttons > Hide Shorts button`
 
-## 36 Audio track menu is missing
-
-Change to iOS TV in `Miscellaneous > Spoof video streams`
-
-## 37 Videos are playing with AI translated audio
-
-Change to iOS TV spoofing (item `36`), then enable `Force original audio` in `Video` settings
 
 
