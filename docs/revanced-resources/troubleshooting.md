@@ -2,7 +2,7 @@
 
 This is a collection of common errors and fixes.
 
-## 4 Audio track menu is missing
+## 4 YouTube Audio track menu is missing
 
 Change to iOS TV in `Settings > ReVanced > Miscellaneous > Spoof video streams`
 
@@ -14,9 +14,17 @@ Change spoofing to iOS TV (item `4`), then enable `Force original audio language
 
 This is a bug in unpatched YouTube. If the screen is locked then unlocked while a video is playing in the background, the PiP buttons will stop working until the video is closed. This bug is not present when patching older versions of YouTube (19.16.39).
 
-## 15 No internet connection
+## 7 Stable volume is not available
 
-This issue can be caused by changing your Google account password. Re-login into MicroG GmsCore, or uninstall then reinstall MicroG.
+Stable volume is not available when using Spoof video streams.
+
+## 8 Childrens/music videos do not play and an error is shown
+
+A YouTube account is required to play most childrens videos.  Ensure you are logged into a YouTube account and you have not enabled incognito mode.
+
+## 15 App shows "No internet connection"
+
+This issue can be caused by recently changing your Google account password. Re-login into MicroG GmsCore, or uninstall then reinstall MicroG.
 
 ## 16 How to use the ReVanced Manager
 
@@ -24,13 +32,13 @@ Follow the [official](https://github.com/revanced/revanced-manager/tree/main/doc
 
 ## 17 YouTube is crashing on startup or redirecting me to a page after applying patches
 
-You might likely be patching a split APK file, so refer to `9`, or you might be missing [MicroG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it. Otherwise, refer to `11` as well as `16`.
+You might likely be patching a split APK file, so refer to `9`, or you might be missing [MicroG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it. Otherwise refer to `16`.
 
-## 18 Watch history isn't being saved on YouTube
+## 18 YouTube Watch history is not being saved
 
-If you use a regular YouTube account instead, whitelist `s.youtube.com` in your system ad-blocker if you have one.
+If you use a system ad-blocker, then whitelist `s.youtube.com`.  Otherwise check your YouTube/Google account permissions and ensure your account watch history is enabled.
 
-## 19 The player UI on YouTube doesn't go away
+## 19 The player UI on YouTube does not go away
 
 This issue occurs randomly. Currently, the only fix is to restart the app.
 
@@ -44,7 +52,7 @@ ReVanced Manager is still a work in progress. Before submitting an issue, ensure
 
 ## 22 Google login does not work
 
-Use a username/password to log in.
+Use a username/password to log in. Some devices may require temporarily turning off 2 factor authentication.
 
 ## 23 Links don't open in a patched app
 
