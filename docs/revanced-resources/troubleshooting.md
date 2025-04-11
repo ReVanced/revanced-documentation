@@ -32,7 +32,7 @@ Follow the [official](https://github.com/revanced/revanced-manager/tree/main/doc
 
 ## 17 YouTube is crashing on startup or redirecting me to a page after applying patches
 
-You might likely be patching a split APK file, so refer to `9`, or you might be missing [MicroG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it. Otherwise refer to `16`.
+You might be missing [MicroG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it.  Or you might be patching a split APK file (refer to `16`).
 
 ## 18 YouTube Watch history is not being saved
 
