@@ -10,10 +10,6 @@ Change to iOS TV in `Settings > ReVanced > Miscellaneous > Spoof video streams`
 
 Change spoofing to iOS TV (item `4`), then enable `Force original audio language` in the `Video` settings
 
-## 6 PiP Background playback buttons do not work (pause/headphone buttons do not work)
-
-This is a bug in unpatched YouTube. If the screen is locked then unlocked while a video is playing in the background, the PiP buttons will stop working until the video is closed. This bug is not present when patching older versions of YouTube (19.16.39).
-
 ## 7 Stable volume is not available
 
 Stable volume is not available when using Spoof video streams.
