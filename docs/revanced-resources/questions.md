@@ -50,7 +50,7 @@ You **must** include **all** relevant information regarding your issue in `#help
 
 ## 12 Where to get MicroG GmsCore?
 
-If you patched YouTube with the `GmsCore support` patch, opening YouTube will redirect you automatically to the correct download page.
+If you patched your app with the `GmsCore support` patch, opening your app will redirect you automatically to the correct download page.
 
 ## 13 Is ReVanced affiliated with Vanced?
 
