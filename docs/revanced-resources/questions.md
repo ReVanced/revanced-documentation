@@ -48,7 +48,7 @@ You **must** include **all** relevant information regarding your issue in `#help
 - Version of ReVanced Manager, the app you patch, etc.  
 - How we can replicate the issue on our end
 
-## 12 Where to get MicroG GmsCore?
+## 12 Where to get microG GmsCore?
 
 If you patched your app with the `GmsCore support` patch, opening your app will redirect you automatically to the correct download page.
 

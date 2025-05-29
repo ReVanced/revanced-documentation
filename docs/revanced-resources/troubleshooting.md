@@ -20,7 +20,7 @@ A YouTube account is required to play most childrens videos.  Ensure you are log
 
 ## 15 App shows "No internet connection"
 
-This issue can be caused by recently changing your Google account password. Re-login into MicroG GmsCore, or uninstall then reinstall MicroG.
+This issue can be caused by recently changing your Google account password. Re-login into microG GmsCore, or uninstall then reinstall microG.
 
 ## 16 How to use the ReVanced Manager
 
@@ -28,7 +28,7 @@ Follow the [official](https://github.com/revanced/revanced-manager/tree/main/doc
 
 ## 17 YouTube is crashing on startup or redirecting me to a page after applying patches
 
-You might be missing [MicroG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it.  Or you might be patching a split APK file (refer to `16`).
+You might be missing [microG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it.  Or you might be patching a split APK file (refer to `16`).
 
 ## 18 YouTube Watch history is not being saved
 
