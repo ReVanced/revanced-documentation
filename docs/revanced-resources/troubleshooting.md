@@ -6,9 +6,11 @@ This is a collection of common errors and fixes.
 
 Change to iOS TV in `Settings > ReVanced > Miscellaneous > Spoof video streams`
 
-## 5 Videos play with automatically dubbed AI audio translations
+You must also be logged in and not in incognito mode, otherwise the audio track menu is still hidden even if iOS TV is selected.
 
-Change spoofing to iOS TV (item `4`), then enable `Force original audio language` in the `Video` settings
+## 5 Videos play with dubbed AI audio translations
+
+Change spoofing to iOS TV (item `4`), then enable `Force original audio language` in the `Video` settings.
 
 ## 7 Stable volume is not available
 
