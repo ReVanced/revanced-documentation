@@ -8,9 +8,9 @@ Change to iOS TV in `Settings > ReVanced > Miscellaneous > Spoof video streams`
 
 You must also be logged in and not in incognito mode, otherwise the audio track menu is still hidden even if iOS TV is selected.
 
-## 5 Videos play with dubbed AI audio translations
+## 5 Videos play with auto-dubbed audio translations
 
-Change spoofing to iOS TV (item `4`), then enable `Force original audio language` in the `Video` settings.
+Change spoofing to iOS TV (item 4 above), then enable `Settings > ReVanced > Video > Force original audio language`
 
 ## 7 Stable volume is not available
 
@@ -36,13 +36,15 @@ You might be missing [MicroG GmsCore](https://github.com/revanced/GmsCore/releas
 
 If you use a system ad-blocker, then whitelist `s.youtube.com`.  Otherwise check your YouTube/Google account permissions and ensure your account watch history is enabled.
 
-## 19 The player UI on YouTube does not go away
+## 19 The first Short opened has a delay before playback starts
 
-This issue occurs randomly. Currently, the only fix is to restart the app.
+Showing Shorts dislikes requires fetching dislikes before the first Short starts playing.  This limitation only applies to the first Short opened and does not occur when swiping to other Shorts.
+
+The only way to remove this delay is to turn off `Settings > ReVanced > Return YouTube Dislike > Show dislikes on Shorts`
 
 ## 20 The Shorts tab button on YouTube is gone
 
-Disable `General > Navigation buttons > Hide Shorts button`.
+Disable `Settings > ReVanced> General > Navigation buttons > Hide Shorts button`
 
 ## 21 ReVanced Manager is crashing/not working
 
@@ -68,7 +70,7 @@ This implies that you must remove the previous installation to solve the conflic
 
 The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
 
-## 32 YouTube or YouTube Music playback not working
+## 32 YouTube or YouTube Music playback does not work
 
 If playback stops and buffers infinitely, or you get an error when trying to play it, see [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
 For YouTube Music, see [this](https://www.reddit.com/r/revancedapp/comments/1hfr6ne/youtube_music_playback_issues_fixed/) Reddit post.
