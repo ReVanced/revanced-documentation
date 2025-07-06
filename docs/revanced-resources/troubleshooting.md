@@ -18,7 +18,7 @@ Stable volume is not available when using Spoof video streams.
 
 ## 8 Childrens/music videos do not play and an error is shown
 
-A YouTube account is required to play most childrens videos.  Ensure you are logged into a YouTube account and you have not enabled incognito mode.
+A YouTube account is required to play most childrens videos.  Ensure you are logged into a YouTube account and incognito mode is not enabled.
 
 ## 15 App shows "No internet connection"
 
@@ -42,7 +42,7 @@ Showing Shorts dislikes requires fetching dislikes before the first Short starts
 
 The only way to remove this delay is to turn off `Settings > ReVanced > Return YouTube Dislike > Show dislikes on Shorts`
 
-## 20 The Shorts tab button on YouTube is gone
+## 20 The YouTube Shorts tab button on missing
 
 Disable `Settings > ReVanced> General > Navigation buttons > Hide Shorts button`
 
@@ -64,7 +64,11 @@ Please install NewPipe [here](https://newpipe.net/#download).
 
 ## 27 Installation is blocked due to conflicting with an existing installation
 
-This implies that you must remove the previous installation to solve the conflict.  If patching YouTube and your device is not rooted then ensure `GmsCore support` was included during patching.
+This implies that you must remove the previous installation to solve the conflict.
+
+This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work Profile, Xiaomi Hidden Apps, etc).  If the same app is already installed but set hidden, then it needs to be unhidden and uninstalled before the patched app can be installed.
+
+If patching YouTube and your device is not rooted, then ensure `GmsCore support` is included during patching.
 
 ## 28 SponsorBlock does not work
 
