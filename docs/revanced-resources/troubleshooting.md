@@ -20,7 +20,7 @@ A YouTube account is required to play most childrens videos.  Ensure you are log
 
 ## 15 App shows "No internet connection"
 
-This issue can be caused by recently changing your Google account password. Re-login into microG GmsCore, or uninstall then reinstall microG.
+This issue can be caused by recently changing your Google account password. Re-login to microG GmsCore, or reinstall it.
 
 ## 16 How to use the ReVanced Manager
 
