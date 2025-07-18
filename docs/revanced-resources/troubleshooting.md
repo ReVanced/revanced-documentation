@@ -12,6 +12,10 @@ You must also be logged in and not in incognito mode, otherwise the audio track 
 
 Change spoofing to iOS TV (item 4 above), then enable `Settings > ReVanced > Video > Force original audio language`
 
+## 6 Force original audio does not work with some videos
+
+Some videos do not work with the iOS TV spoof client.  There currently is no way to change the audio track or force the original audio for these videos.
+
 ## 7 Stable volume is not available
 
 Stable volume is not available when using Spoof video streams.
@@ -22,7 +26,7 @@ A YouTube account is required to play most childrens videos.  Ensure you are log
 
 ## 15 App shows "No internet connection"
 
-This issue can be caused by recently changing your Google account password. Re-login to microG GmsCore, or reinstall it.
+This issue can be caused if you recently changed your Google account password. Re-login into microG GmsCore, or uninstall then reinstall microG.
 
 ## 16 How to use the ReVanced Manager
 
