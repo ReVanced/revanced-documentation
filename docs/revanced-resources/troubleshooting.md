@@ -62,21 +62,21 @@ Use a username/password to log in. Some devices may require temporarily turning 
 
 Follow [this](https://support.google.com/pixelphone/answer/6271667). The process may vary for your device. You may need to disable or uninstall the unpatched app that occupies the links to set them for the patched app.
 
-## 24 `org.schabi.newpipe` is not installed
-
-Please install NewPipe [here](https://newpipe.net/#download).
-
 ## 27 Installation is blocked due to conflicting with an existing installation
 
 This implies that you must remove the previous installation to solve the conflict.
 
 This error can be caused by 'hidden' apps (Samsung Secure Folder, Android Work Profile, Xiaomi Hidden Apps, etc).  If the same app is already installed but set hidden, then it needs to be unhidden and uninstalled before the patched app can be installed.
 
-If patching YouTube and your device is not rooted, then ensure `GmsCore support` is included during patching.
+If patching YouTube and your device is not rooted, then ensure `GmsCore support` is included during patching and no patch failures occur.
 
 ## 28 SponsorBlock does not work
 
 The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
+
+## 30 Patched app does not work with Android Auto
+
+Enable [Android Auto developer mode](https://developer.android.com/training/cars/testing#developer-mode), then enable "Unknown sources" in the Android Auto developer menu.
 
 ## 32 YouTube or YouTube Music playback does not work
 
