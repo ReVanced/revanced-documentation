@@ -68,6 +68,7 @@ Collection of all ReVanced documentation.
 - [💻 ReVanced CLI](./docs/revanced-cli): Documentation and usage guides for ReVanced CLI
 - [💉 ReVanced Patcher](./docs/revanced-patcher): Documentation and usage guides for ReVanced Patcher
 - [🛠️ ReVanced Development](./docs/revanced-development): Documentation to setup a development environment for ReVanced
+- [⚙️ ReVanced Internals](./docs/revanced-internals): Documentation of internal processes of ReVanced
 - [🟠 ReVanced Other](./docs/revanced-other): Miscellaneous documents used on our platforms, such as Reddit or Discord
 
 > [!WARNING]  
