@@ -1,4 +1,4 @@
-# ⚙️ ReVanced internals
+# ⚙️ ReVanced Internals
 
 Documentation about ReVanced's internal structure and workings to learn more about how it operates.
 
