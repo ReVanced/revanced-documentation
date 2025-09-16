@@ -4,17 +4,15 @@ This is a collection of common errors and fixes.
 
 ## 4 YouTube Audio track menu is missing
 
-Change to iOS TV in `Settings > ReVanced > Miscellaneous > Spoof video streams`
-
-You must also be logged in and not in incognito mode, otherwise the audio track menu is still hidden even if iOS TV is selected.
+Change to iPadOS in `Settings > ReVanced > Miscellaneous > Spoof video streams`
 
 ## 5 Videos play with auto-dubbed audio translations
 
-Change spoofing to iOS TV (item 4 above), then enable `Settings > ReVanced > Video > Force original audio language`
+Enable `Settings > ReVanced > Video > Force original audio language`
 
 ## 6 Force original audio does not work with some videos
 
-Some videos do not work with the iOS TV spoof client.  There currently is no way to change the audio track or force the original audio for these videos.
+Some videos do not work with the iPadOS spoof client. There currently is no way to change the audio track or force the original audio for these videos.
 
 ## 7 Stable volume is not available
 
