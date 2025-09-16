@@ -10,10 +10,6 @@ Change to iPadOS in `Settings > ReVanced > Miscellaneous > Spoof video streams`
 
 Enable `Settings > ReVanced > Video > Force original audio language`
 
-## 6 Force original audio does not work with some videos
-
-Some videos do not work with the iPadOS spoof client. There currently is no way to change the audio track or force the original audio for these videos.
-
 ## 7 Stable volume is not available
 
 Stable volume is not available when using Spoof video streams.
