@@ -4,7 +4,9 @@ This is a collection of common errors and fixes.
 
 ## 4 YouTube Audio track menu is missing
 
-Change to iPadOS in `Settings > ReVanced > Miscellaneous > Spoof video streams`
+Change to iPadOS in `Settings > ReVanced > Miscellaneous > Spoof video streams`.
+
+If iPadOS does not work or buffers at 1 minute, then there currently is no solution.
 
 ## 5 Videos play with auto-dubbed audio translations
 
