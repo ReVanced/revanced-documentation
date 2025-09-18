@@ -78,9 +78,9 @@ Enable [Android Auto developer mode](https://developer.android.com/training/cars
 
 ## 32 YouTube or YouTube Music playback does not work
 
-Ensure you are using the latest patches. ReVanced Manager automatically updates its patches, but you still need to repatch each app if more recent patches exist.
+First ensure you are using the latest patches. You may be using outdated patches even if the app version has not changed. See [here](https://github.com/ReVanced/revanced-documentation/blob/main/docs/revanced-resources/questions.md#14-how-to-update-patched-apps) for additional information on updating.
 
-Search for existing issues [here](https://github.com/ReVanced/revanced-patches/issues?q=is%3Aissue%20state%3Aopen) because if there is a known issue there will be an open issue for it.
+Search for existing issues [here](https://github.com/ReVanced/revanced-patches/issues?q=is%3Aissue%20state%3Aopen) as all known issues will have an existing issue.
 
 If videos on YouTube are instantly paused when you press the play button, then you must disable Picture in Picture due to an issue with your OS/YouTube.
 
@@ -91,13 +91,3 @@ You may have toggled settings in ReVanced Manager that are not recommended to ch
 ## 34 No ReVanced logo after patching YouTube
 
 By default, the patch to change the logo of the YouTube app is not applied. Use the `Custom branding` patch to change the logo.
-
-## 35 YouTube Shorts still not hidden
-
-Use the `Hide Shorts components` and `Navigation buttons` patches to hide YouTube shorts. In the YouTube ReVanced settings, enable:
-
-- `Shorts > Hide Shorts in feed`
-- `General > Navigation buttons > Hide Shorts button`
-
-
-
