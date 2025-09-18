@@ -2,10 +2,6 @@
 
 Please read them before asking questions that have been asked too many times.
 
-## 1 Spotify does not work after patching
-
-The issue is currently being looked into. See [this](https://revanced.app/announcements/14-spotify-login-fixed) announcement for updates.
-
 ## 2 Is ReVanced available on iOS or TV?
 
 ReVanced is a patcher for Android apps. Android is very different from iOS. Therefore, ReVanced is not available on iOS. The nearest equivalent to ReVanced on iOS is [Theos](https://theos.dev/). If your TV runs Android, it may be possible to use ReVanced.
@@ -26,6 +22,8 @@ You can check the list of available patches at [revanced.app](https://revanced.a
 
 Since we are an open-source community and depend on outside help, you can always check out [our GitHub repositories](https://revanced.app/github) and contribute to ReVanced by creating an issue or pull request.
 
+Additional, [financial donations](https://revanced.app/donate) are always welcomed.
+
 ## 7 Does ReVanced always stay up to date with X?
 
 ReVanced Patcher allows you to use patches on any app version. However, please note that patches may not work if you're not using the versions suggested by ReVanced Manager.
@@ -38,10 +36,14 @@ You can check supported apps and their patches on the [ReVanced Website](https:/
 
 You can get (full) APKs from sites such as [APKMirror](https://www.apkmirror.com/) or [APKPure](https://apkpure.net/de). An APK ends with the extension `.apk`.
 
+If only split apks are available (`apkm` or `xapk` files), then tools like [AntiSplit M](https://github.com/AbdurazaaqMohammed/AntiSplit-M) can convert `apkm`/`xapk` of your device architecture to regular `apk` for use with ReVanced Manager.
+
 ## 10 Capture logs 
 
-1. (Only if the setting exists) Turn on `Misc > Debugging > Debug logging` in the settings (Ensure you have used the `Enable debugging` patch).  
-2. Open a shell over ADB and capture logs using the command `logcat | grep revanced:` (or `logcat | grep AndroidRuntime` for exception logs). Alternatively, any app capable of capturing logs using Logcat can be used.
+1. (Only if the setting exists) Turn on `Miscellaneous > Debugging > Debug logging` in the settings (Ensure you have included the `Enable debugging` patch).  
+2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep revanced:` or `adb logcat | grep AndroidRuntime` for app crash logs. to save the logs to a file use  `adb logcat | grep revanced > logs.txt`
+4. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
+5. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (due to clipboard limitations the log is limited to the most recent log data). No ADB or computer setup is required.
 
 ## 11 Can you help me?
 
@@ -62,4 +64,6 @@ ReVanced is not affiliated with Vanced.
 
 ## 14 How to update patched apps?
 
-To update a patched app, you need to patch and install the new version of the app. See #3 in [Questions](questions.md).
+To update a patched app, you need to patch and install the app again. 
+
+Patch versions are completely different from the app version, and newer patches can exist even if the app version is the same as your currently patched app. See #3 in [Questions](questions.md).
