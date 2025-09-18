@@ -78,8 +78,9 @@ Enable [Android Auto developer mode](https://developer.android.com/training/cars
 
 ## 32 YouTube or YouTube Music playback does not work
 
-If playback stops and buffers infinitely, or you get an error when trying to play it, see [this](https://www.reddit.com/r/revancedapp/comments/1fk5dph/spoofing_fixes_for_youtube/) Reddit post.
-For YouTube Music, see [this](https://www.reddit.com/r/revancedapp/comments/1hfr6ne/youtube_music_playback_issues_fixed/) Reddit post.
+Ensure you are using tbe latest patches. ReVanced Manager automatically updates its patches, but you still need to repatch each app if more recent patches exist.
+
+Search for existing issues [here](https://github.com/ReVanced/revanced-patches/issues?q=is%3Aissue%20state%3Aopen) because if there is a known issue there will be an open issue for it.
 
 If videos on YouTube are instantly paused when you press the play button, you must disable Picture in Picture due to an issue with your OS/YouTube.
 
