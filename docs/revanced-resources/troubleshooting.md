@@ -12,6 +12,8 @@ If iPadOS does not work or buffers at 1 minute, then there currently is no solut
 
 Enable `Settings > ReVanced > Video > Force original audio language`
 
+If the spoof clients Android VR and visionOS do not work (Stats for nerds always shows "Android Studio"), then the original audio cannot be forced and currently there is no solution.
+
 ## 7 Stable volume is not available
 
 Stable volume is not available when using Spoof video streams.
