@@ -2,6 +2,10 @@
 
 Please read them before asking questions that have been asked too many times.
 
+## 1 Spotify does not work after patching
+
+The issue is currently being looked into. See [this](https://revanced.app/announcements/14-spotify-login-fixed) and [this](https://revanced.app/announcements/15-spotify-dmca-notice-seeking-legal-help) for announcement for updates.
+
 ## 2 Is ReVanced available on iOS or TV?
 
 ReVanced is a patcher for Android apps. Android is very different from iOS. Therefore, ReVanced is not available on iOS. The nearest equivalent to ReVanced on iOS is [Theos](https://theos.dev/). If your TV runs Android, it may be possible to use ReVanced.
