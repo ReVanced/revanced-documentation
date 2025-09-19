@@ -10,7 +10,9 @@ If iPadOS does not work or buffers at 1 minute, then there currently is no solut
 
 ## 5 Videos play with auto-dubbed audio translations
 
-Enable `Settings > ReVanced > Video > Force original audio language`
+Repatch YouTube if your settings about screen does not show patches version 5.39 or higher.
+
+Then enable `Settings > ReVanced > Video > Force original audio language`
 
 If the spoof clients Android VR and visionOS do not work (Stats for nerds always shows "Android Studio"), then the original audio cannot be forced and currently there is no solution.
 
