@@ -45,7 +45,7 @@ If only split apks are available (`apkm` or `xapk` files), then tools like [Anti
 ## 10 Capture logs 
 
 1. (Only if the setting exists) Turn on `Miscellaneous > Debugging > Debug logging` in the settings (Ensure you have included the `Enable debugging` patch).  
-2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep revanced:` or `adb logcat | grep AndroidRuntime` for app crash logs. to save the logs to a file use  `adb logcat | grep revanced > logs.txt`
+2. Install the [Android developer tools](https://developer.android.com/tools/releases/platform-tools) on a computer, open a command prompt, and capture the logs using the command `adb logcat | grep revanced:` or `adb logcat | grep AndroidRuntime` for app crash logs. to save the logs to a file use  `adb logcat | grep revanced > logs.txt` or `adb logcat | grep AndroidRuntime > logs.txt`
 4. Alternatively, you can use any Android app capable of [capturing logs](https://play.google.com/store/apps/details?id=com.dp.logcatapp) (to use these apps a one time setup is required using a computer and ADB).
 5. Alternatively, in YouTube you can copy the most recent logs directly from the Debug settings menu (due to clipboard limitations the log is limited to the most recent log data). No ADB or computer setup is required.
 
