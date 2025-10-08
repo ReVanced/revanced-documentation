@@ -10,7 +10,7 @@ If iPadOS does not work or buffers at 1 minute, then there currently is no solut
 
 ## 5 Videos play with auto-dubbed audio translations
 
-Repatch YouTube if your settings about screen does not show patches version 5.40 or higher.
+Repatch YouTube if your settings about screen does not show patches version 5.42.0 or higher.
 
 Then enable `Settings > ReVanced > Video > Force original audio language`
 
@@ -34,7 +34,7 @@ Follow the [official](https://github.com/revanced/revanced-manager/tree/main/doc
 
 ## 17 YouTube is crashing on startup or redirecting me to a page after applying patches
 
-You might be missing [microG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it.  Or you might be patching a split APK file (refer to `16`).
+You might be missing [microG GmsCore](https://github.com/revanced/GmsCore/releases/latest). Install it. Or you might be patching a split APK file (refer to `16`).
 
 ## 18 YouTube Watch history is not being saved
 
@@ -92,4 +92,6 @@ You may have toggled settings in ReVanced Manager that are not recommended to ch
 
 ## 34 No ReVanced logo after patching YouTube
 
-By default, the patch to change the logo of the YouTube app is not applied. Use the `Custom branding` patch to change the logo.
+Enable `ReVanced settings > General > App icon`
+
+If you do not see this option, then repatch YouTube and ensure the `Custom branding` patch is included.
