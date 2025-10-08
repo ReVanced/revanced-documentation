@@ -11,4 +11,5 @@ ReVanced is a FOSS (Free and Open Source Software) project. However, one of the 
 - [Principles](principles.md)
 - [Management](management.md)
 - [Infrastructure](infrastructure.md)
+- [Trust](trust.md)
 - [Finance](finance.md)
