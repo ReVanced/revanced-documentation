@@ -20,8 +20,9 @@ ReVanced uses public social media platforms like Discord, Reddit, Telegram, Twit
 - Mercury (Banking)
 - Legal and compliance services (USPTO, WIPO, Wyoming Registered Agent)
 - Crowdin (Localization and translation management)
-- Microsoft Clarity & Google Analytics (User behavior analytics)
+- Microsoft Clarity & Google Tag Manager, Google Analytics (User behavior analytics)
 - Figma (Design and prototyping)
+- Wit.ai (Generative AI for ReVanced Bot)
 
 ### Self-hosted services
 
@@ -32,14 +33,15 @@ ReVanced uses public social media platforms like Discord, Reddit, Telegram, Twit
 - Paperless-ngx (Document management system)
 - Vaultwarden (Self-hosted password manager)
 - ReVanced Bot (Bot for community engagement and support)
-- Wit.ai (Generative AI for ReVanced Bot)
 - ReVanced API (Internal API for ReVanced services like ReVanced Manager or ReVanced Website)
 - Duplicati (Backup volumes for self-hosted services to Cloudflare R2)
 - GoAccess (Analytics for Nginx logs)
+- n8n (Automation platform, e.g. to automate social media posts)
+- Roundcube (Webmail client for ReVanced E-Mails)
 
 ## Details
 
-ReVanced uses Oracle Cloud Free Tier services to host a Ubuntu VPS instance (with ESM and unattended upgrades enabled). Only two incoming ports are open for Nginx and OpenSSH (SSH). SSH access is hardened with key-based authentication and other security measures. All self-hosted services are managed using Docker containers via Portainer, including Nginx. Watchtower keeps them up to date. Duplicati is set up to upload volumes to Cloudflare R2. Portainer backs up itself to R2 as well. Nginx is hardened (e.g. to only allow connections from Cloudflare, preventing TLS certificate leakage to expose the IP address of the VPS, generic HTTP security headers and SSL configurations). HTTP is proxied by Cloudflare. For SSH, Cloudflare proxy is disabled, however a random subdomain name is used for security by obscurity. All HTTP services are proxied by Nginx. Vaultwarden is used for passwords and secret storage. 2FA is enforced. Passwords are randomly generated using Bitwarden. Critical services like Vaultwarden, Portainer and co. are protected behind Cloudflare Zero Trust. For external services ReVanced E-Mails are used.
+ReVanced uses Oracle Cloud Free Tier services to host a Ubuntu VPS instance (with ESM and unattended upgrades enabled). Only HTTPS is open and only Cloudflare IPs are allowed to connect to it. SSH access is made possible with Cloudflare Tunnel and Cloudflare's browser-based terminal. SSH is hardened with key-based authentication and other security measures. All self-hosted services are managed using Docker containers via Portainer, including Nginx. Watchtower keeps them up to date. Duplicati is set up to upload volumes to Cloudflare R2. Portainer backs up itself to R2 as well. Nginx is hardened (e.g. to only allow connections from Cloudflare, preventing TLS certificate leakage to expose the IP address of the VPS, generic HTTP security headers and SSL configurations). HTTP is proxied by Cloudflare. All HTTP services are proxied by Nginx. Vaultwarden is used for passwords and secret storage. 2FA is enforced. Passwords are randomly generated using Bitwarden. Critical services like Vaultwarden, Portainer and co. are protected behind Cloudflare Zero Trust. For external services ReVanced E-Mails are used.
 
 ## Critical infrastructure and single points of failures
 
