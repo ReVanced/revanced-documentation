@@ -10,7 +10,7 @@ If iPadOS does not work or buffers at 1 minute, then there currently is no solut
 
 ## 5 Videos play with auto-dubbed audio translations
 
-Repatch YouTube if your settings about screen does not show patches version 5.42.0 or higher.
+Repatch YouTube if your settings about screen does not show patches version 5.43.0 or higher.
 
 Then enable `Settings > ReVanced > Video > Force original audio language`
 
