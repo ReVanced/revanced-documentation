@@ -4,21 +4,23 @@ This is a collection of common errors and fixes.
 
 ## 4 YouTube Audio track menu is missing
 
-Change to iPadOS in `Settings > ReVanced > Miscellaneous > Spoof video streams`.
+Change: `Settings > ReVanced > Miscellaneous > Spoof video streams > Client` to either `Android No SDK` or `iPadOS`
 
-If iPadOS does not work or buffers at 1 minute, then there currently is no solution.
+If the audio track menu is still not available or playback buffers at 1 minute, then currently there is no solution.
 
 ## 5 Videos play with auto-dubbed audio translations
 
-Repatch YouTube if your settings about screen does not show patches version 5.43.0 or higher.
+Repatch YouTube if your settings about screen does not show patches version 5.45.0 or higher.
 
-Then enable `Settings > ReVanced > Video > Force original audio language`
+Then enable `Settings > ReVanced > Video > Force original audio language`.
 
-If the spoof clients Android VR and visionOS do not work (Stats for nerds always shows "Android Studio"), then the original audio cannot be forced and currently there is no solution.
+You may also need to change to a spoof client that supports multiple audio tracks (see item 4 above).
+
+If the audio is still auto-dubbed and "Stats for nerds" always shows `Android Studio`, then the original audio cannot be forced and currently there is no solution.
 
 ## 7 Stable volume is not available
 
-Stable volume is not available when using Spoof video streams.
+Stable volume is not available when using most Spoof video streams.
 
 ## 8 Childrens/music videos do not play and an error is shown
 
