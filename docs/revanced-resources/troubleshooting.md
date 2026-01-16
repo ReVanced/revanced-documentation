@@ -88,6 +88,8 @@ Search for existing issues [here](https://github.com/ReVanced/revanced-patches/i
 
 If videos on YouTube are instantly paused when you press the play button, then you must disable Picture in Picture due to an issue with your OS/YouTube.
 
+If they load slowly or buffer infinitly try other clients under `ReVanced Settings > Miscellaneous > Spoof video streams > Default Client`.
+
 ## 33 Common issues during or after patching
 
 You may have toggled settings in ReVanced Manager that are not recommended to change. Please review the warnings when adjusting these settings and reset them to their default configuration.
