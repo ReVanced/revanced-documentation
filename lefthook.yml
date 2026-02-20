@@ -1,0 +1,13 @@
+pre-commit:
+  parallel: true
+  commands:
+    check:
+      files: git diff --name-only --cached --diff-filter=AM
+      glob: "*.{js,ts,json}"
+      run: bunx biome check {files}
+
+commit-msg:
+  parallel: false
+  commands:
+    commitlint:
+      run: bunx commitlint --edit

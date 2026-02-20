@@ -82,7 +82,7 @@ Enable [Android Auto developer mode](https://developer.android.com/training/cars
 
 ## 32 YouTube or YouTube Music playback does not work
 
-First ensure you are using the latest patches. You may be using outdated patches even if the app version has not changed. See [here](https://github.com/ReVanced/revanced-documentation/blob/main/docs/revanced-resources/questions.md#14-how-to-update-patched-apps) for additional information on updating.
+First ensure you are using the latest patches. You may be using outdated patches even if the app version has not changed. See [here](questions.md#14-how-to-update-patched-apps) for additional information on updating.
 
 Search for existing issues [here](https://github.com/ReVanced/revanced-patches/issues?q=is%3Aissue%20state%3Aopen) as all known issues will have an existing issue.
 

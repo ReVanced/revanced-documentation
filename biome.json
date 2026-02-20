@@ -1,0 +1,44 @@
+{
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"files": {
+		"ignoreUnknown": true,
+		"includes": [
+			"**/*.js",
+			"**/*.cjs",
+			"**/*.mjs",
+			"**/*.ts",
+			"**/*.cts",
+			"**/*.mts",
+			"**/*.json",
+			"**/*.jsonc",
+			"!node_modules",
+			"!.claude",
+			"!.svelte-kit",
+			"!build",
+			"!repositories"
+		]
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab",
+		"lineWidth": 100
+	},
+	"linter": {
+		"enabled": true
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "single",
+			"semicolons": "always"
+		}
+	},
+	"json": {
+		"formatter": {
+			"indentStyle": "tab"
+		}
+	}
+}

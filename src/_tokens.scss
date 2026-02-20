@@ -1,0 +1,23 @@
+$bp-desktop: 1200px;
+$bp-mobile: 768px;
+
+$header-height: 56px;
+$toc-row-height: 60px;
+$sidebar-width: 280px;
+$toc-width: 240px;
+$content-max-width: 850px;
+
+$layout-padding: 24px;
+$layout-radius: 24px;
+
+$z-sidebar: 110;
+$z-header: 40;
+$z-header-mobile: 100;
+$z-dropdown: 200;
+$z-modal: 9999;
+$z-toc: 50;
+
+$search-debounce-ms: 60;
+$search-max-width: 560px;
+
+$anchor-offset: calc(#{$header-height} + 24px);
