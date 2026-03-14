@@ -20,7 +20,7 @@ Yes! ReVanced supports non-root and rooted devices.
 
 ## 5 Which patches are available?
 
-You can check the list of available patches at [revanced.app](https://revanced.app/patches), in [ReVanced Manager](https://github.com/revanced/revanced-manager/tree/main/docs) or [ReVanced CLI](https://github.com/revanced/revanced-cli/tree/main/docs). Since ReVanced is open source, anyone can pick up a feature. Your contributions are also very welcome. You can request patches [here](https://github.com/ReVanced/revanced-patches/issues/new?assignees=&labels=Feature+request&projects=&template=feature_request.yml&title=feat%3A+).
+You can check the list of available patches in [ReVanced Manager](https://github.com/revanced/revanced-manager/tree/main/docs) or [ReVanced CLI](https://github.com/revanced/revanced-cli/tree/main/docs). Since ReVanced is open source, anyone can pick up a feature. Your contributions are also very welcome. You can request patches [here](https://github.com/ReVanced/revanced-patches/issues/new?assignees=&labels=Feature+request&projects=&template=feature_request.yml&title=feat%3A+).
 
 ## 6 How can I help?
 
