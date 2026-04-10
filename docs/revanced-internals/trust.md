@@ -12,7 +12,7 @@ The following steps are necessary to verify signatures:
 
 1. Obtain the signing key: Before you can verify a signature, you need to obtain the public key of the signer. This key is usually shared via a trusted channel, such as a website or a key server. ReVanced publishes its keys at [api.revanced.app/keys](https://api.revanced.app/keys). Import the key with `gpg --import <key-file>`.
 2. Trust the signing key: After obtaining the public key, you need to trust, that it is the correct key. A simple method to establish trust is to compare the signing key's fingerprint with that of a handful of signed assets or messages. If the fingerprints match, this means, the key is associated with them. For higher assurance, you need to verify the key's fingerprint through multiple independent sources, such as official social media accounts, community forums, or other trusted individuals and sources.
-3. Verify the signature: Once you have the public key and have established trust in it, you can use it to verify the signature of subsequent assets or messages. This is typically done using the `gpg` command-line tool: `gpg --verify <signature-file> <signed-file>`.
+3. Verify the signature: Once you have the public key and have established trust in it, you can use it to verify the signature of subsequent assets or messages. This is typically done using the `gpg` command-line tool: `gpg --verify`.
 
 ### Verifying certificates
 
