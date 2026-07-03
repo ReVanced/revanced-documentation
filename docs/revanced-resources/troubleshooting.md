@@ -2,30 +2,6 @@
 
 This is a collection of common errors and fixes.
 
-## 4 YouTube Audio track menu is missing
-
-Change: `Settings > ReVanced > Miscellaneous > Spoof video streams > Client` to either `Android No SDK` or `iPadOS`
-
-If the audio track menu is still not available or playback buffers at 1 minute, then currently there is no solution.
-
-## 5 Videos play with auto-dubbed audio translations
-
-Repatch YouTube if your settings about screen does not show patches version 5.45.0 or higher.
-
-Then enable `Settings > ReVanced > Video > Force original audio language`.
-
-You may also need to change to a spoof client that supports multiple audio tracks (see item 4 above).
-
-If the audio is still auto-dubbed and "Stats for nerds" always shows `Android Studio`, then the original audio cannot be forced and currently there is no solution.
-
-## 7 Stable volume is not available
-
-Stable volume is not available when using most Spoof video streams.
-
-## 8 Childrens/music videos do not play and an error is shown
-
-A YouTube account is required to play most childrens videos.  Ensure you are logged into a YouTube account and incognito mode is not enabled.
-
 ## 15 App shows "No internet connection"
 
 This issue can happen after making changes to your Google account. Re-login into microG GmsCore, or uninstall then reinstall microG.
@@ -64,7 +40,27 @@ Use a username/password to log in. Some devices may require temporarily turning 
 
 Follow [this](https://support.google.com/pixelphone/answer/6271667). The process may vary for your device. You may need to disable or uninstall the unpatched app that occupies the links to set them for the patched app.
 
-## 27 Installation is blocked due to conflicting with an existing installation
+## 24 YouTube Audio track menu is missing
+
+Change: `Settings > ReVanced > Miscellaneous > Spoof video streams > Client` to either `Android No SDK` or `iPadOS`
+
+If the audio track menu is still not available or playback buffers at 1 minute, then currently there is no solution.
+
+## 25 Videos play with auto-dubbed audio translations
+
+Repatch YouTube if your screen settings do not show patch version 5.45.0 or higher.
+
+Then enable `Settings > ReVanced > Video > Force original audio language`.
+
+You may also need to change to a spoof client that supports multiple audio tracks (see item 4 above).
+
+If the audio is still auto-dubbed and "Stats for nerds" always shows `Android Studio`, then the original audio cannot be forced and currently there is no solution.
+
+## 26 Stable volume is not available
+
+Stable volume is unavailable with most Spoof video streams.
+
+## 27 Installation is blocked due to a conflict with an existing installation
 
 This implies that you must remove the previous installation to solve the conflict.
 
@@ -75,6 +71,10 @@ If patching YouTube and your device is not rooted, then ensure `GmsCore support`
 ## 28 SponsorBlock does not work
 
 The servers of SponsorBlock are likely having issues right now. Review the [current status](https://status.sponsor.ajay.app/) of SponsorBlock.
+
+## 29 Childrens/music videos do not play, and an error is shown
+
+A YouTube account is required to play most children's videos.  Ensure you are logged into a YouTube account and that incognito mode is not enabled.
 
 ## 30 Patched app does not work with Android Auto
 
