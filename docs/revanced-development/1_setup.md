@@ -38,8 +38,8 @@ A certain development environment is suggested to allow for streamlined developm
 > Example `gradle.properties` file:
 >
 > ```properties
-> gpr.user = <GitHub username>
-> gpr.key = <Personal access token>
+> githubPackagesUseraname = <GitHub username>
+> githubPackagesPassword = <GitHub PAT>
 > ```
 
 ## ⚙️ Setting up your workspace in IntelliJ IDEA
