@@ -38,7 +38,7 @@ A certain development environment is suggested to allow for streamlined developm
 > Example `gradle.properties` file:
 >
 > ```properties
-> githubPackagesUseraname = <GitHub username>
+> githubPackagesUsername = <GitHub username>
 > githubPackagesPassword = <GitHub PAT>
 > ```
 
